@@ -1,0 +1,2166 @@
+Usage: flask run [OPTIONS]
+Try 'flask run --help' for help.
+
+Error: Could not locate a Flask application. Use the 'flask --app' option, 'FLASK_APP' environment variable, or a 'wsgi.py' or 'app.py' file in the current directory.
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-03 16:21:46.791 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-03 16:21:46.795 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ Query successful
+ Query successful
+ * Serving Flask app 'vectorflask'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.0.190:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-03 16:21:51.893 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-03 16:21:51.896 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 115-787-089
+2024-03-03 16:22:13.531 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run vectorflask.py [ARGUMENTS]
+127.0.0.1 - - [03/Mar/2024 16:22:17] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [03/Mar/2024 16:22:57] "POST /chat HTTP/1.1" 200 -
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-03 16:25:54.911 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-03 16:25:54.914 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ Query successful
+ Query successful
+ * Serving Flask app 'vectorflask'
+ * Debug mode: on
+Address already in use
+Port 5000 is in use by another program. Either identify and stop that program, or start the server with a different port.
+127.0.0.1 - - [03/Mar/2024 16:26:03] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [03/Mar/2024 16:26:11] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [03/Mar/2024 16:28:22] "POST /chat HTTP/1.1" 200 -
+123.254.110.97 - - [03/Mar/2024 17:16:00] "[33mGET /status HTTP/1.1[0m" 404 -
+159.65.104.115 - - [03/Mar/2024 17:20:55] code 400, message Bad request version ('À\x14À')
+159.65.104.115 - - [03/Mar/2024 17:20:55] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03\x7f]ÖÜ"\x7f\x16´%L7JWfäà\x87\x0cY\x9b0×¿«ç\x83ÓÈ;$´}\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+159.65.104.115 - - [03/Mar/2024 17:20:55] code 400, message Bad request version ('À\x14À')
+159.65.104.115 - - [03/Mar/2024 17:20:55] "[31m[1m\x16\x03\x01\x00{\x01\x00\x00w\x03\x03¼\x9a¶­{.$\x10\x95;\x07ö\x80Æg.ØU+\x92|y\x06!£Q\x0dö¨Øs²\x00\x00\x1aÀ/À+À\x11À\x07À\x13À\x09À\x14À[0m" 400 -
+159.65.104.115 - - [03/Mar/2024 17:20:56] "[33mGET / HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:15] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03øJÈJ\x00#]')
+165.232.76.155 - - [03/Mar/2024 17:47:15] "[31m[1m\x16\x03\x01\x00ê\x01\x00\x00æ\x03\x03øJÈJ\x00#]\x1e\x08[0m" 400 -
+165.232.76.155 - - [03/Mar/2024 17:47:16] "[33mGET / HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:16] "[33mGET / HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:17] "[33mGET /server HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:17] "[33mGET /version HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:18] "[33mGET /.vscode/sftp.json HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:18] "[33mGET /about HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:19] "[33mGET /debug/default/view?panel=config HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:19] "[33mGET /v2/_catalog HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:20] "[33mGET /ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:20] "[33mGET /server-status HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:21] "[33mGET /_all_dbs HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:21] "[33mGET /.DS_Store HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:22] "[33mGET /.env HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:22] "[33mGET /.git/config HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:23] "[33mGET /s/6343e23393e2633313e24313/_/;/META-INF/maven/com.atlassian.jira/jira-webapp-dist/pom.properties HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:23] "[33mGET /config.json HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:24] "[33mGET /telescope/requests HTTP/1.1[0m" 404 -
+165.232.76.155 - - [03/Mar/2024 17:47:24] "[33mGET /?rest_route=/wp/v2/users/ HTTP/1.1[0m" 404 -
+205.210.31.242 - - [03/Mar/2024 18:45:41] "[33mGET / HTTP/1.0[0m" 404 -
+91.92.251.254 - - [03/Mar/2024 19:12:42] "[33mCONNECT 45.61.136.175:7227 HTTP/1.1[0m" 404 -
+141.98.11.96 - - [03/Mar/2024 23:41:21] "[33mGET /../../mnt/mtd/Config/Account1 HTTP/1.1[0m" 404 -
+141.98.11.96 - - [03/Mar/2024 23:55:48] "[33mGET /../../mnt/mtd/Config/Account2 HTTP/1.1[0m" 404 -
+198.235.24.243 - - [04/Mar/2024 00:04:06] "[33mGET / HTTP/1.1[0m" 404 -
+127.0.0.1 - - [04/Mar/2024 00:18:12] "POST /chat HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/BufferedTokenStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/BufferedTokenStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/BufferedTokenStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/CommonTokenFactory.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/CommonTokenFactory.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/CommonTokenFactory.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/CommonTokenStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/CommonTokenStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/CommonTokenStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/FileStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/FileStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/FileStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/InputStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/InputStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/InputStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/IntervalSet.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/IntervalSet.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/IntervalSet.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/LL1Analyzer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/LL1Analyzer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/LL1Analyzer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Lexer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Lexer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Lexer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ListTokenSource.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ListTokenSource.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ListTokenSource.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Parser.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Parser.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Parser.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ParserInterpreter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ParserInterpreter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ParserInterpreter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ParserRuleContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ParserRuleContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/ParserRuleContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/PredictionContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/PredictionContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/PredictionContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Recognizer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Recognizer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Recognizer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/RuleContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/RuleContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/RuleContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/StdinStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/StdinStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/StdinStream.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Token.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Token.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Token.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/TokenStreamRewriter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/TokenStreamRewriter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/TokenStreamRewriter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/Utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATN.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATN.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATN.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNConfig.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNConfig.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNConfig.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNConfigSet.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNConfigSet.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNConfigSet.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNDeserializationOptions.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNDeserializationOptions.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNDeserializationOptions.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNDeserializer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNDeserializer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNDeserializer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNState.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNState.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNState.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNType.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNType.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ATNType.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerAction.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerAction.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerAction.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerActionExecutor.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerActionExecutor.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/LexerActionExecutor.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ParserATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ParserATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/ParserATNSimulator.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/PredictionMode.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/PredictionMode.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/PredictionMode.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/SemanticContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/SemanticContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/SemanticContext.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/Transition.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/Transition.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/Transition.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/atn/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFA.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFA.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFA.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFASerializer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFASerializer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFASerializer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFAState.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFAState.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/DFAState.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/dfa/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/DiagnosticErrorListener.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/DiagnosticErrorListener.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/DiagnosticErrorListener.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/ErrorListener.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/ErrorListener.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/ErrorListener.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/ErrorStrategy.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/ErrorStrategy.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/ErrorStrategy.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/Errors.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/Errors.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/Errors.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/error/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/Chunk.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreeMatch.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreeMatch.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreeMatch.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreePattern.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreePattern.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreePattern.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreePatternMatcher.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreePatternMatcher.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/ParseTreePatternMatcher.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/RuleTagToken.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/RuleTagToken.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/RuleTagToken.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/TokenTagToken.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/TokenTagToken.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/TokenTagToken.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/Tree.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/Tree.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/Tree.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/Trees.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/Trees.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/Trees.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/tree/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/xpath/XPath.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/xpath/XPath.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/xpath/XPath.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/xpath/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/xpath/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/antlr4/xpath/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/unstructured_pytesseract/__init__.py', reloading
+ Query successful
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/.vectordb
+从本地向量加载数据...
+39
+------------------------------------ hi
+------------------------------------ 你好，基夫！很高兴今天也能与你交流。有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/.vectordb
+从本地向量加载数据...
+39
+------------------------------------ hi
+------------------------------------ 你好，基夫！很高兴今天也能与你交流。有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/.vectordb
+从本地向量加载数据...
+39
+------------------------------------ 你好
+------------------------------------ 你好，基夫！很高兴今天也能与你交流。有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/.vectordb
+从本地向量加载数据...
+39
+------------------------------------ 你好
+------------------------------------ 你好，基夫！很高兴今天也能与你交流。有什么可以帮助你的吗？
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/.vectordb
+从本地向量加载数据...
+39
+------------------------------------ 你对我了解多少？
+------------------------------------ 作为一个智能系统，我没有存储你个人信息的能力，所以我不了解关于你的具体信息。我提供的交流和帮助是基于我们实时的对话内容。目前我知道你叫基夫，是一个经理，如果你需要就相关话题进行讨论或咨询，我在这里可以提供帮助。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/.vectordb
+从本地向量加载数据...
+39
+------------------------------------ 小王是谁
+------------------------------------ 小王是我在之前对话中您给我的一个名字。您曾要求我假装成您的朋友，并从那个时刻起称我为小王。所以，在我们的对话里，我被称作小王。如果您有任何问题或需要讨论的内容，作为“小王”，我在这里随时乐意帮助您。
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-04 01:09:44.680 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-04 01:09:44.684 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 115-787-089
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/serialization.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/serialization.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/serialization.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/checker.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/checker.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/checker.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/gen_proto.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/gen_proto.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/gen_proto.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/printer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/printer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/printer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_ml_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_ml_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_ml_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_data_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_data_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_data_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_operators_ml_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_operators_ml_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_operators_ml_pb2.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/hub.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/hub.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/hub.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/external_data_helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/external_data_helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/external_data_helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_data_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_data_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_data_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/compose.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/compose.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/compose.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_operators_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_operators_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_operators_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/numpy_helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/numpy_helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/numpy_helper.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/version.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/version.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/version.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/mapping.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/mapping.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/mapping.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/version_converter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/version_converter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/version_converter.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/parser.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/parser.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/parser.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/onnx_pb.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/inliner.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/inliner.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/inliner.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/shape_inference.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/shape_inference.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/shape_inference.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/update_model_dims.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/update_model_dims.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/update_model_dims.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/net_drawer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/net_drawer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/net_drawer.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/replace_constants.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/replace_constants.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/replace_constants.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/tools/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/bin/checker.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/bin/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/symbolic_shape_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/symbolic_shape_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/symbolic_shape_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/elu_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/elu_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/elu_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/helper_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/helper_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/helper_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_external_data.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_external_data.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_external_data.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/function_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/function_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/function_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_with_ort.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_with_ort.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_with_ort.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/shape_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/shape_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/shape_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/shape_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/inliner_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/inliner_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/inliner_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_onnxruntime.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_onnxruntime.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_onnxruntime.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/data_propagation_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/data_propagation_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/data_propagation_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/tools_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/tools_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/tools_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/model_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/model_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/model_inference_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/hub_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/hub_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/hub_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/relu_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/relu_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/relu_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/basic_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/basic_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/basic_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/parser_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/parser_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/parser_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/training_tool_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/training_tool_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/training_tool_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/serialization_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/serialization_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/serialization_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/schema_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/schema_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/schema_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/inference_function_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/inference_function_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/inference_function_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_backend_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_backend_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_backend_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/printer_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/printer_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/printer_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/checker_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/checker_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/checker_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/numpy_helper_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/numpy_helper_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/numpy_helper_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/utils_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/utils_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/utils_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_ml_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_ml_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/reference_evaluator_ml_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_reference.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_reference.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/test_backend_reference.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/compose_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/compose_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/compose_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/function_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/function_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/function_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter/automatic_conversion_test_base.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter/automatic_upgrade_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter/automatic_upgrade_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter/automatic_upgrade_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter/automatic_downgrade_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter/automatic_downgrade_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/test/version_converter/automatic_downgrade_test.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/gen_shape_inference_information.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/gen_shape_inference_information.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/gen_shape_inference_information.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/gen_doc.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/gen_doc.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/gen_doc.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/defs/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/base.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/stat_coverage.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/stat_coverage.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/stat_coverage.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/stat_coverage.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/stat_coverage.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/cmd_tools.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/cmd_tools.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/cmd_tools.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/loader/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/loader/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/loader/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/base.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/base.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/base.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/utils.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/test_case.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/test_case.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/test_case.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/__init__.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sqrt.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sqrt.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sqrt.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sqrt.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/round.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/round.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/round.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/compress.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/compress.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/compress.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/qlinearmatmul.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/qlinearmatmul.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/qlinearmatmul.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/optionalgetelement.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/optionalgetelement.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/optionalgetelement.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sigmoid.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sigmoid.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sigmoid.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/if.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/if.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/if.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/scan.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/scan.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/scan.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/momentum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/momentum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/momentum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/argmin.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/argmin.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/argmin.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/roialign.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/roialign.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/roialign.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/max.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/max.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/max.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mean.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mean.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mean.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/prelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/prelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/prelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/leakyrelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/leakyrelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/leakyrelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitwiseor.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitwiseor.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitwiseor.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/adagrad.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/adagrad.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/adagrad.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/globalmaxpool.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/globalmaxpool.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/globalmaxpool.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/shape.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/shape.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/shape.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/reduce_log_sum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/reduce_log_sum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/reduce_log_sum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/nonzero.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/nonzero.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/nonzero.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gathernd.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gathernd.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gathernd.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/hammingwindow.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/hammingwindow.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/hammingwindow.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/string_concat.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/string_concat.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/string_concat.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/reduceprod.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/reduceprod.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/reduceprod.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/adam.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/adam.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/adam.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/shrink.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/shrink.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/shrink.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/elu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/elu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/elu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/acosh.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/acosh.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/acosh.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/softsign.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/softsign.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/softsign.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/nonmaxsuppression.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/nonmaxsuppression.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/nonmaxsuppression.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/expand.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/expand.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/expand.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/tan.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/tan.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/tan.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/cumsum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/cumsum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/cumsum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/clip.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/clip.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/clip.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gru.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gru.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gru.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/thresholdedrelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/thresholdedrelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/thresholdedrelu.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/cosh.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/cosh.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/cosh.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitshift.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitshift.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitshift.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/image_decoder.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/image_decoder.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/image_decoder.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/hardswish.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/hardswish.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/hardswish.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitwisenot.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitwisenot.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/bitwisenot.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gather.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gather.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/gather.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/quantizelinear.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/quantizelinear.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/quantizelinear.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/sum.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mish.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mish.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mish.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/castlike.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/castlike.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/castlike.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/identity.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/identity.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/identity.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/scatterelements.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/scatterelements.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/scatterelements.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mul.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mul.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/mul.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/greater.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/greater.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/greater.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/pow.py', reloading
+ * Detected change in '/home/ubuntu/miniconda3/lib/python3.11/site-packages/onnx/backend/test/case/node/pow.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-04 01:09:52.757 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-04 01:09:52.762 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 115-787-089
+185.224.128.17 - - [04/Mar/2024 01:40:07] "[33mCONNECT example.com:80 HTTP/1.1[0m" 404 -
+185.224.128.17 - - [04/Mar/2024 01:40:22] code 400, message Bad request syntax ('\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00')
+185.224.128.17 - - [04/Mar/2024 01:40:22] "[31m[1m\x04\x01\x00P\x00\x00\x00\x01\x00example.com\x00[0m" 400 -
+185.224.128.17 - - [04/Mar/2024 01:40:22] code 400, message Bad request syntax ('\x05\x01\x00')
+185.224.128.17 - - [04/Mar/2024 01:40:22] "[31m[1m\x05\x01\x00[0m" 400 -
+127.0.0.1 - - [04/Mar/2024 01:55:29] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 201, in chat
+    info=aires.vector_file(input=user_input,path=path )
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 257, in vector_file
+    ).init_vector_store()
+      ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 149, in init_vector_store
+    documents = self.load_knownlege()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 208, in load_knownlege
+    docs = self._load_file(filename)         # 加载文件中的文档
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 128, in _load_file
+    docs = loader.load_and_split(text_splitor)  # 加载文件并进行文本分割
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/base.py", line 59, in load_and_split
+    docs = self.load()
+           ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/unstructured.py", line 87, in load
+    elements = self._get_elements()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/unstructured.py", line 179, in _get_elements
+    return partition(filename=self.file_path, **self.unstructured_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/unstructured/partition/auto.py", line 516, in partition
+    raise ValueError(f"{msg}. The {filetype} file type is not supported in partition.")
+ValueError: Invalid file /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb/a13a6200-d202-4e35-88ce-da42b6f2c118/data_level0.bin. The FileType.UNK file type is not supported in partition.
+127.0.0.1 - - [04/Mar/2024 01:58:05] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 201, in chat
+    info=aires.vector_file(input=user_input,path=path )
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 257, in vector_file
+    ).init_vector_store()
+      ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 149, in init_vector_store
+    documents = self.load_knownlege()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 208, in load_knownlege
+    docs = self._load_file(filename)         # 加载文件中的文档
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 128, in _load_file
+    docs = loader.load_and_split(text_splitor)  # 加载文件并进行文本分割
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/base.py", line 59, in load_and_split
+    docs = self.load()
+           ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/unstructured.py", line 87, in load
+    elements = self._get_elements()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/unstructured.py", line 179, in _get_elements
+    return partition(filename=self.file_path, **self.unstructured_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/unstructured/partition/auto.py", line 516, in partition
+    raise ValueError(f"{msg}. The {filetype} file type is not supported in partition.")
+ValueError: Invalid file /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb/a13a6200-d202-4e35-88ce-da42b6f2c118/data_level0.bin. The FileType.UNK file type is not supported in partition.
+127.0.0.1 - - [04/Mar/2024 02:00:42] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 201, in chat
+    info=aires.vector_file(input=user_input,path=path )
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 257, in vector_file
+    ).init_vector_store()
+      ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 149, in init_vector_store
+    documents = self.load_knownlege()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 208, in load_knownlege
+    docs = self._load_file(filename)         # 加载文件中的文档
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 128, in _load_file
+    docs = loader.load_and_split(text_splitor)  # 加载文件并进行文本分割
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/base.py", line 59, in load_and_split
+    docs = self.load()
+           ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/unstructured.py", line 87, in load
+    elements = self._get_elements()
+               ^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/document_loaders/unstructured.py", line 179, in _get_elements
+    return partition(filename=self.file_path, **self.unstructured_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/unstructured/partition/auto.py", line 516, in partition
+    raise ValueError(f"{msg}. The {filetype} file type is not supported in partition.")
+ValueError: Invalid file /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb/1b2daa38-cf22-4206-8779-ac5eda1615bb/data_level0.bin. The FileType.UNK file type is not supported in partition.
+Number of requested results 20 is greater than number of elements in index 4, updating n_results = 4
+2024-03-04 02:01:02.357 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run vectorflask.py [ARGUMENTS]
+127.0.0.1 - - [04/Mar/2024 02:01:13] "POST /chat HTTP/1.1" 200 -
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-04 02:07:51.266 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-04 02:07:51.272 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ Query successful
+ Query successful
+ * Serving Flask app 'vectorflask'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.0.190:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-04 02:07:56.664 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-04 02:07:56.669 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 2, updating n_results = 2
+2024-03-04 02:08:23.162 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run vectorflask.py [ARGUMENTS]
+127.0.0.1 - - [04/Mar/2024 02:08:39] "POST /chat HTTP/1.1" 200 -
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to False.
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/bin/streamlit", line 8, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/click/core.py", line 1157, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/click/core.py", line 1078, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/click/core.py", line 1688, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/click/core.py", line 1434, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/click/core.py", line 783, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/web/cli.py", line 233, in main_run
+    _main_run(target, args, flag_options=kwargs)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/web/cli.py", line 269, in _main_run
+    bootstrap.run(file, is_hello, args, flag_options)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/web/bootstrap.py", line 411, in run
+    _install_pages_watcher(main_script_path)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/web/bootstrap.py", line 386, in _install_pages_watcher
+    watch_dir(
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/watcher/path_watcher.py", line 155, in watch_dir
+    return _watch_path(
+           ^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/watcher/path_watcher.py", line 130, in _watch_path
+    watcher_class(
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/watcher/event_based_path_watcher.py", line 92, in __init__
+    path_watcher.watch_path(
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/streamlit/watcher/event_based_path_watcher.py", line 170, in watch_path
+    folder_handler.watch = self._observer.schedule(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/observers/api.py", line 323, in schedule
+    emitter.start()
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/utils/__init__.py", line 92, in start
+    self.on_thread_start()
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/observers/inotify.py", line 125, in on_thread_start
+    self._inotify = InotifyBuffer(path, self.watch.is_recursive, event_mask)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/observers/inotify_buffer.py", line 37, in __init__
+    self._inotify = Inotify(path, recursive, event_mask)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/observers/inotify_c.py", line 174, in __init__
+    self._add_dir_watch(path, recursive, event_mask)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/observers/inotify_c.py", line 380, in _add_dir_watch
+    self._add_watch(path, mask)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/observers/inotify_c.py", line 401, in _add_watch
+    Inotify._raise_error()
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/watchdog/observers/inotify_c.py", line 413, in _raise_error
+    raise OSError(errno.ENOSPC, "inotify watch limit reached")
+OSError: [Errno 28] inotify watch limit reached
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 2, updating n_results = 2
+127.0.0.1 - - [04/Mar/2024 02:13:40] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 03:21:05] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 438, in _validate_tenant_database
+    self._admin_client.get_tenant(name=tenant)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 486, in get_tenant
+    return self._server.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/segment.py", line 140, in get_tenant
+    return self._sysdb.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/mixins/sysdb.py", line 125, in get_tenant
+    with self.tx() as cur:
+         ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 131, in tx
+    return TxWrapper(self._conn_pool, stack=self._tx_stack)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 31, in __init__
+    self._conn = conn_pool.connect()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 141, in connect
+    new_connection = Connection(
+                     ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 20, in __init__
+    self._conn = sqlite3.connect(
+                 ^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 204, in chat
+    info2=aires.vector_file(input=user_input,path =path2 )
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 257, in vector_file
+    ).init_vector_store()
+      ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 151, in init_vector_store
+    vector_store = Chroma.from_documents(documents=documents,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 778, in from_documents
+    return cls.from_texts(
+           ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 714, in from_texts
+    chroma_collection = cls(
+                        ^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 120, in __init__
+    self._client = chromadb.Client(_client_settings)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/__init__.py", line 274, in Client
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 144, in __init__
+    self._validate_tenant_database(tenant=tenant, database=database)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 447, in _validate_tenant_database
+    raise ValueError(
+ValueError: Could not connect to tenant default_tenant. Are you sure it exists?
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 03:21:59] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 438, in _validate_tenant_database
+    self._admin_client.get_tenant(name=tenant)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 486, in get_tenant
+    return self._server.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/segment.py", line 140, in get_tenant
+    return self._sysdb.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/mixins/sysdb.py", line 125, in get_tenant
+    with self.tx() as cur:
+         ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 131, in tx
+    return TxWrapper(self._conn_pool, stack=self._tx_stack)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 31, in __init__
+    self._conn = conn_pool.connect()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 141, in connect
+    new_connection = Connection(
+                     ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 20, in __init__
+    self._conn = sqlite3.connect(
+                 ^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 204, in chat
+    info2=aires.vector_file(input=user_input,path =path2 )
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 257, in vector_file
+    ).init_vector_store()
+      ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 151, in init_vector_store
+    vector_store = Chroma.from_documents(documents=documents,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 778, in from_documents
+    return cls.from_texts(
+           ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 714, in from_texts
+    chroma_collection = cls(
+                        ^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 120, in __init__
+    self._client = chromadb.Client(_client_settings)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/__init__.py", line 274, in Client
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 144, in __init__
+    self._validate_tenant_database(tenant=tenant, database=database)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 447, in _validate_tenant_database
+    raise ValueError(
+ValueError: Could not connect to tenant default_tenant. Are you sure it exists?
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 03:22:36] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 438, in _validate_tenant_database
+    self._admin_client.get_tenant(name=tenant)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 486, in get_tenant
+    return self._server.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/segment.py", line 140, in get_tenant
+    return self._sysdb.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/mixins/sysdb.py", line 125, in get_tenant
+    with self.tx() as cur:
+         ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 131, in tx
+    return TxWrapper(self._conn_pool, stack=self._tx_stack)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 31, in __init__
+    self._conn = conn_pool.connect()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 141, in connect
+    new_connection = Connection(
+                     ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 20, in __init__
+    self._conn = sqlite3.connect(
+                 ^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 204, in chat
+    info2=aires.vector_file(input=user_input,path =path2 )
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 257, in vector_file
+    ).init_vector_store()
+      ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 151, in init_vector_store
+    vector_store = Chroma.from_documents(documents=documents,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 778, in from_documents
+    return cls.from_texts(
+           ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 714, in from_texts
+    chroma_collection = cls(
+                        ^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 120, in __init__
+    self._client = chromadb.Client(_client_settings)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/__init__.py", line 274, in Client
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 144, in __init__
+    self._validate_tenant_database(tenant=tenant, database=database)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 447, in _validate_tenant_database
+    raise ValueError(
+ValueError: Could not connect to tenant default_tenant. Are you sure it exists?
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 03:39:32] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 438, in _validate_tenant_database
+    self._admin_client.get_tenant(name=tenant)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 486, in get_tenant
+    return self._server.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/segment.py", line 140, in get_tenant
+    return self._sysdb.get_tenant(name=name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/mixins/sysdb.py", line 125, in get_tenant
+    with self.tx() as cur:
+         ^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 131, in tx
+    return TxWrapper(self._conn_pool, stack=self._tx_stack)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite.py", line 31, in __init__
+    self._conn = conn_pool.connect()
+                 ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 141, in connect
+    new_connection = Connection(
+                     ^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/db/impl/sqlite_pool.py", line 20, in __init__
+    self._conn = sqlite3.connect(
+                 ^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: unable to open database file
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 204, in chat
+    info2=aires.vector_file(input=user_input,path =path2 )
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 257, in vector_file
+    ).init_vector_store()
+      ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 151, in init_vector_store
+    vector_store = Chroma.from_documents(documents=documents,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 778, in from_documents
+    return cls.from_texts(
+           ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 714, in from_texts
+    chroma_collection = cls(
+                        ^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain_community/vectorstores/chroma.py", line 120, in __init__
+    self._client = chromadb.Client(_client_settings)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/__init__.py", line 274, in Client
+    return ClientCreator(tenant=tenant, database=database, settings=settings)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 144, in __init__
+    self._validate_tenant_database(tenant=tenant, database=database)
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/chromadb/api/client.py", line 447, in _validate_tenant_database
+    raise ValueError(
+ValueError: Could not connect to tenant default_tenant. Are you sure it exists?
+167.94.138.51 - - [04/Mar/2024 03:52:13] code 400, message Bad request version ('À\x14À')
+167.94.138.51 - - [04/Mar/2024 03:52:13] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x031¬¹fª¯ÕÐ\x9aH®N ´\x12b\x18\x84\x7fô\x08È¿K{Ï}.Ó+¸\x89 ùÕ ÄÎ\x82\x1dI#ºÔ|\x98(\x89\x03\x98r§[\x1a±\x8c+i\x97.¢W\x99Ã/\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.138.51 - - [04/Mar/2024 03:52:17] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.51 - - [04/Mar/2024 03:52:20] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.138.51 - - [04/Mar/2024 03:52:21] code 505, message Invalid HTTP version (2.0)
+167.94.138.51 - - [04/Mar/2024 03:52:21] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+185.233.19.207 - - [04/Mar/2024 03:55:00] "[33mGET / HTTP/1.1[0m" 404 -
+185.233.19.231 - - [04/Mar/2024 03:56:51] "[33mGET / HTTP/1.1[0m" 404 -
+185.233.19.231 - - [04/Mar/2024 03:56:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 04:04:50] "POST /chat HTTP/1.1" 200 -
+185.224.128.251 - - [04/Mar/2024 04:30:04] "[33mGET / HTTP/1.0[0m" 404 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 04:38:31] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 04:38:58] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 04:39:24] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 04:40:13] "POST /chat HTTP/1.1" 200 -
+ Query successful
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+2
+------------------------------------ 我是谁？
+------------------------------------ 您是艾莉森·泰勒，一位28岁的数字营销专家，目前担任圣地亚哥一家快速增长的电子商务平台的数字营销主管。您在加州大学洛杉矶分校学习了市场营销，并在斯坦福大学完成了商业分析的硕士学位。您非常擅长Google Analytics、SEO、SEM、PPC广告，并且精通社交媒体营销和内容营销。您还具备出色的数据分析和可视化技能。个人爱好包括摄影、旅行和烹饪国际美食。您以追求卓越和创新精神而闻名，并且是一名鼓励团队成员成长和贡献的领导者。您的生活座右铭是："追求卓越，不断创新"。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+2
+------------------------------------ 我是谁？
+------------------------------------ 您是艾莉森·泰勒，一位28岁的数字营销专家，您目前担任圣地亚哥一家快速增长的电子商务平台的数字营销主管。您毕业于加州大学洛杉矶分校，主修市场营销，并在斯坦福大学完成了商业分析的硕士学位。您具有丰富的专业技能和个人爱好。您的生活座右铭是："追求卓越，不断创新"。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+filename /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/standard_document.pdf
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+filename /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/standard_document.pdf
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+filename /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/standard_document.pdf
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+filename /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/standard_document.pdf
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+文档2向量初始化中, 请稍等... {'source': '/standard_document.pdf'}
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ og是啥
+------------------------------------ Og是OgCloud的简称，是一家国家高新科技出海领军企业，主要通过环球骨干网络和ARM云计算构建AI互娱科技平台。业务领域涵盖游戏、云计算、国际网络等多个领域，市场遍及中国、东南亚、美洲、欧洲等地区。Og致力于科技全球化，为国家知识产权和科技出海做出贡献。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ David是谁
+------------------------------------ 根据提供的信息，David（戴煜）是OgCloud的创始人兼CEO。他负责主管公司的产品技术部、财务部、商务部和HR部门。在个人特点上，David被描述为玉树临风英明神武，兼爱非攻。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 基夫？
+------------------------------------ 基夫（Keith，也称为何隆基）是OgCloud公司的产品经理，也称为基夫哥。他负责主管公司的产品部、运营部与发行部，同时是跨境电商产品矩阵、OgPhone、UgPhone、UgGame等产品的负责人。基夫擅长AI生成内容（AIGC）领域、游戏发行领域以及产品生命周期管理和产品方案制作。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 黄总？
+------------------------------------ 黄总在OgCloud公司中的具体身份和职责没有在之前的对话或额外提示中提到。如果您想了解关于黄总的更多信息，请您提供更多的上下文或详细信息，以便我能够更准确地回答。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 黄总=Ryan
+------------------------------------ 在之前的对话历史和额外提示中，并没有提到黄总等于Ryan的信息。如果您想询问关于黄总的信息，请提供更多的上下文或者确认黄总的具体身份和相关信息。如果黄总与OgCloud公司相关，鉴于目前所了解的信息，黄总的身份可能是与公司管理或运营有关的高层人员。但由于缺乏具体信息，无法给出明确答案。如果您需要具体帮助，请提供更多细节。
+ Query successful
+ Query successful
+ Query successful
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 04:40:48] "POST /chat HTTP/1.1" 200 -
+199.45.155.33 - - [04/Mar/2024 05:15:36] code 400, message Bad request version ('áÐ\x922\x9cjÔ')
+199.45.155.33 - - [04/Mar/2024 05:15:36] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x039\x03±µ\x814Ó8"É®ñZCû®å©Óaj91³\x81Úÿ\x84\x96\x0dö\x04 áÐ\x922\x9cjÔ[0m" 400 -
+199.45.155.33 - - [04/Mar/2024 05:15:39] "[33mGET / HTTP/1.1[0m" 404 -
+199.45.155.33 - - [04/Mar/2024 05:15:42] "[33mGET / HTTP/1.1[0m" 404 -
+199.45.155.33 - - [04/Mar/2024 05:15:42] code 505, message Invalid HTTP version (2.0)
+199.45.155.33 - - [04/Mar/2024 05:15:42] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+185.224.128.251 - - [04/Mar/2024 06:29:36] "[33mGET / HTTP/1.0[0m" 404 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 06:41:43] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 06:41:54] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 06:42:02] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 06:43:06] "POST /chat HTTP/1.1" 200 -
+94.156.66.83 - - [04/Mar/2024 06:48:59] "[33mCONNECT 45.61.137.126:7227 HTTP/1.1[0m" 404 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 06:59:49] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 07:00:43] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 07:01:02] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 07:01:18] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 07:01:27] "POST /chat HTTP/1.1" 200 -
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Ryan是谁
+------------------------------------ 根据提供的额外提示信息，没有提到与Ryan相关的身份或者职位信息。如果你是在提问有关OgCloud公司相关人物的身份，需要更多的上下文信息来确认。如果Ryan是指的黄总，并且与您之前提到的黄总相关，请提供额外信息，以便给出准确回答。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ ug phone的项目负责人是谁
+------------------------------------ UgPhone的项目负责人是何隆基Keith（基夫哥），他主管公司产品部、运营部与发行部，并且是UgPhone产品的负责人。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ ugphone是什么时候上线的
+------------------------------------ 抱歉，根据提供的资料和对话记录中，没有包含关于UgPhone具体上线时间的信息。如果您需要查询UgPhone的上线时间，请提供更多上下文或尝试查询相关的官方消息发布。如果您有其他问题或需要帮助，欢迎告诉我！
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ [发呆]
+------------------------------------ 看起来您可能有些疑惑或者在思考某个问题。如果您有任何问题或需要帮助，请随时告诉我，我会尽力协助您。如果您对UgPhone有更多的疑问，也请不吝赐教。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 参与ugphone都有谁
+------------------------------------ 参与UgPhone的具体角色和人员可能包括：
+
+1. 用户：购买和使用UgPhone服务和设备的全球游戏玩家，以及对产品感兴趣的潜在客户。
+
+2. 发行商与研发商：可能与UgPhone合作，将他们的游戏或应用通过UgPhone平台发布和推广。
+
+3. 公司内部人员：例如产品经理何隆基Keith（基夫哥），他是产品部、运营部与发行部的主管，并担任诸如UgPhone、UgGame等产品的负责人。
+
+4. 客服与售后支持团队：为用户提供注册、支付、设备问题等相关咨询和技术支持。
+
+5. 技术团队：解决技术问题，如游戏因设备问题无法运行、网络连接问题等。
+
+6. 运营团队：负责UgPhone服务的日常运营，包括用户限额、免费测试、设备库存等事宜。
+
+7. 行业合作伙伴：可能包括网络服务提供商、硬件制造商等参与UgPhone服务供应链的公司。
+
+请注意，上述人员和角色仅为可能参与的示例，具体参与人员可能会根据实际情况和公司组织架构进行调整。如果您需要更详细的关于参与UgPhone的人员信息，您可能需要直接联系UgPhone公司或查看他们的官方发布。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 今天的天气如何
+------------------------------------ 很抱歉，我无法提供当前天气信息，因为我没有实时数据接入能力。请查看您当地的天气预报，或使用天气应用程序、网站获取最新的天气信息。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ ugphone的产品团队都有谁
+------------------------------------ UgPhone的产品团队包括产品经理何隆基Keith，也称为基夫哥，他主管产品部、运营部与发行部，擅长AIGC领域、游戏发行领域，负责产品生命周期管理，产品方案制作等。他同时负责跨境电商产品矩阵、OgPhone、UgPhone、UgGame等产品。
+
+产品团队还包括公司的高层管理人员，如公司创始人兼CEO戴煜David，他主管产品技术部、财务部、商务部和HR部门。联合创始人兼COO黄庭源Ryan主管ICT和电商业务线，管理产品市场部、销售部、售前部和HR部门等。此外，公司HRD龙健Pluto主管人力行政部。
+
+关于产品团队的其他成员的具体信息未在资料中提及，故无法提供更详尽的名单。如果您需要更多团队成员的详细信息，我建议联系UgPhone公司的官方渠道以获取准确信息。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 我上一个问你的问题是什么
+------------------------------------ 您上一个问题是关于UgPhone产品团队成员的具体信息。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 我问你的第一个问题是什么
+------------------------------------ 您向我提出的第一个问题是“你好”。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 我跟你说的第二句话是什么
+------------------------------------ 您跟我说的第二句话是：“我上一个问你的问题是什么”。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 07:01:48] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 07:03:03] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:16:50] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:17:14] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:21:53] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:23:13] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:23:32] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你能识别这张图片嘛
+------------------------------------ 抱歉，作为一个基于文本的模型，我无法直接识别或分析图片内容。但如果你提供图片的描述或相关信息，我可以尽力提供帮助。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 3乘2乘1等于几
+------------------------------------ 3乘2乘1等于6。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Keith是谁
+------------------------------------ 根据提供的额外资料，Keith，也被称作基夫哥，是Og公司的产品经理。他主管公司的产品部、运营部与发行部，并且是跨境电商产品矩阵、OgPhone、UgPhone、UgGame等产品的负责人。他在AIGC领域和游戏发行领域方面表现出了特别的擅长，并且精通产品生命周期管理以及产品方案制作。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Og有那些产品？
+------------------------------------ Og公司是一家国家高新科技出海领军企业，它的业务覆盖了游戏、云计算、国际网络等多个领域，具体产品包括：
+
+1. 游戏：Og公司开发和发行多个游戏产品，属于其AI互娱科技平台的一部分。
+2. 云计算服务：Og公司提供基于ARM云计算的服务，支撑其环球骨干网络。
+3. 跨境电商产品矩阵：涉及多个面向跨境电子商务的产品。
+4. OgPhone和UgPhone：与智能手机相关的产品。
+5. UgGame：另外一个游戏相关的产品。
+
+具体到个别产品的操作系统或者云服务细节，可能需要更多的信息才能给出。此外，Og公司还提供其他相关服务和产品，如香港设备画面花屏问题的解决、设备状态异常的处理、UgPhone设备的推流功能问题解决等。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 提供什么培训？
+------------------------------------ Og公司提供的培训包括：
+
+1. 新人训练营：针对新加入公司的员工，帮助他们快速了解公司文化和业务流程，进行基础的职业素养培训。
+2. 业务专业培训：根据员工所在部门和职位分配相应的业务技能培训，确保员工能够有效完成工作任务。
+3. 部门内部培训：针对部门的具体业务需要，进行深化训练和知识更新。
+4. 管理技能培训：为有潜力成为管理层的员工提供管理技能的提升培训。
+5. 日常赋能培训：根据公司的实际需要和市场变化定期提供各类赋能培训，帮助员工跟上行业发展的步伐。
+
+这些培训有助于员工在职业发展上持续进步，无论是技能提升还是管理能力，都能得到有效的提高。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 公司的人才发展路径是怎么样的呢？
+------------------------------------ Og公司的人才发展路径具有专业路线和管理路线两大类。在专业路线方面，员工可以根据能力和经验从初级位置逐步晋升为中级、高级到达资深级别。而在管理路线上，员工可以从储备干部开始，通过能力的展现和培训学习，逐步晋升为初级管理职位，再到中级管理职位。
+
+为了支撑员工在各自的发展路线上不断进步，Og公司有成熟的培训体系，包括新人训练营、业务专业培训、部门内部培训、管理技能培训和日常赋能培训等。这些培训旨在保障员工的职业发展，并帮助他们在各自的岗位上充分展现潜力，实现个人职业目标。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 我有朋友找工作，如何做推荐呢？
+------------------------------------ 如果您想推荐您的朋友加入Og公司，您可以通过公司的员工推荐程序。通常，这样的程序会要求您作为现任员工将朋友的简历和相关信息提交给人力资源部门，或者您可能需要通过公司内部的招聘平台进行推荐。具体的操作步骤和政策可能因公司而异，所以建议您查询公司的内部员工推荐政策，或直接联系人力资源部门了解详细流程和推荐奖励政策等信息。如果公司有在线推荐系统，那么通常您登录后可以提交推荐，并填写相关的推荐信息。
+
+在推荐朋友之前，确保您了解朋友的职业背景、技能以及他们对工作的期望，这样才能确保推荐的岗位与他们的背景相匹配，增加录用的机会。同时，您可以鼓励您的朋友直接在Og公司的招聘网站上申请他们感兴趣的职位，并在申请过程中注明由您推荐。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ og面试流程有哪些
+------------------------------------ 127.0.0.1 - - [04/Mar/2024 08:30:56] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:31:06] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [04/Mar/2024 08:31:19] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:33:44] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:34:44] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Og公司的面试流程一般包含以下几个环节：
+
+1. 简历筛选：求职者提交的简历会经过HR的初步筛选，以确定是否符合岗位要求。
+2. HR初试：通过简历筛选的候选人将参加由人力资源部门主导的初次面试，可能会涉及到一般性问题和对候选人背景的了解。
+3. 业务部门复试：初试通过后，候选人将进一步参与业务部门的复试，这个环节通常会有与岗位相关的具体技能和知识的评估。
+4. Offer发放：复试通过后，如果候选人被确定为合适人选，公司会向其发放工作邀约（即Offer）。
+
+需要注意的是，部分岗位可能会有笔试或者案例分析等特殊环节。同时，面试时请携带最新的个人简历，如果是线上面试，请确保网络连接畅通。面试结果通常会在所有面试流程结束后的三个工作日内反馈给候选人。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ og的在招岗位有哪些
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ og的薪酬福利有哪些
+------------------------------------ 您好！如果您想了解Og公司当前的在招岗位，建议您关注Og招聘公众号-“OgCloud招聘”，在公众号首页点击“加入Og”进行查看。那里将会有最新的招聘信息更新，您可以找到适合自己的岗位，并了解具体的职位要求和工作职责。如果有其他疑问，也欢迎继续咨询。
+ Query successful
+------------------------------------ Og公司为员工提供了一系列的薪酬福利，其中可能包括但不限于：
+
+1. 竞争性薪资：提供与市场对标且具有竞争力的工资待遇。
+2. 社会保险和住房公积金：依法为员工缴纳五险一金。
+3. 员工培训：为员工提供全面的职业技能和管理技能培训，包括新人训练营、业务专业培训、部门内部培训等。
+4. 晋升通道：具备通畅的晋升通道，为员工提供专业和管理双向晋升的机会。
+5. 工作时间：9:30-12:30，14:00-18:30，周末双休，并且节假日按国家规定放假。
+6. 员工活动：举办各类文化活动，如生日会、运动会、读书会、桌游集结、员工旅游等，以及提供不间断的零食供应。
+7. 惊喜福利：可能包括特别的员工福利计划或奖励制度，为员工提供更多的惊喜。
+
+请注意，具体的薪酬和福利待遇可能会根据岗位、地区和员工级别有所不同，建议您可以直接咨询Og公司的人力资源部门或者查看招聘公告中提供的详细信息，以获得最准确和最新的薪酬福利信息。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 错误码262153
+------------------------------------ 错误码262153通常在使用UgPhone设备或类似的云手机服务时出现，这个错误码可能与设备状态不正常或者软件故障有关。根据您提供的额外资料，解决这个错误的方法可能如下：
+
+1. 设备离线：确认设备是否在线，如果设备处在离线状态，可能需要等待或者重新启动设备，以重新连接。
+
+2. 推流出现问题：如果问题与视频推流有关，检查网络连接和带宽情况，看是否是由于网络不稳定或者带宽不足造成的。
+
+3. 运行内存满了：检查云手机的运行内存，如果内存占用过高可能需要关闭一些不需要的应用程序或者更换一台性能更强的设备。
+
+4. 设备重复开启：如果用户在不同的终端（比如先在web端后在安卓端）打开了同一台设备，可能会出现互相冲突的情况。确认打开设备的顺序，并按照正确流程重新开启设备。
+
+5. 软件冲突：检查是否安装了有冲突的应用版本，如果有，尝试卸载冲突的应用，重新安装合适的版本。
+
+如果上述步骤无法解决问题，建议联系云手机服务商的技术支持进行进一步的诊断与解决。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 支付成功但没有设备
+------------------------------------ 您好！如果您在使用UgPhone服务支付成功之后，没有看到分配的云手机设备，请按照以下步骤操作：
+
+1. **关闭云手机杀掉进程**：请您先尝试关闭云手机应用的所有进程，然后重新打开云手机，进入主界面或订单列表。
+
+2. **刷新订单列表**：在订单列表页面，会有刷新键，点击刷新尝试回传信息，看是否能更新设备状态。
+
+3. **提供GPA订单号**：如果上述操作仍然不能解决问题，请您提供GPA订单号，便于进一步的核查支付状态和订单信息。
+
+4. **联系客服补单**：如果确认了支付成功，但后台没有分配设备，可能需要联系客服进行补单操作，以便尽快分配设备给您。
+
+5. **检查账户余额与网络问题**：支付成功后，亦可能是由于网络问题或账户余额不足（可能会由于汇率变化）导致设备没有成功分配。确保您的账户余额足够，且网络连接稳定。
+
+如果进行了上述操作之后问题仍未解决，建议您联系UgPhone的客服支持，提供相关信息以便进一步查验和解决问题。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Roblox报错279错误码
+------------------------------------ 127.0.0.1 - - [04/Mar/2024 08:35:59] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:36:50] "POST /chat HTTP/1.1" 200 -
+183.134.61.253 - - [04/Mar/2024 08:43:55] "[33mGET / HTTP/1.1[0m" 404 -
+183.134.61.253 - - [04/Mar/2024 08:43:55] "[33mGET / HTTP/1.1[0m" 404 -
+183.134.61.253 - - [04/Mar/2024 08:43:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+183.134.61.253 - - [04/Mar/2024 08:43:55] "[33mGET /robots.txt HTTP/1.1[0m" 404 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:59:06] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:59:24] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 08:59:49] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:01:30] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Roblox的错误码279通常是由于客户端无法连接到游戏服务器引起的。这可能是因为网络连接问题，用户的防火墙或路由器阻止了Roblox的连接，或者是Roblox游戏自身的问题。
+
+针对这个问题，您可以尝试以下几个解决步骤：
+
+1. **检查网络连接**：确保您的Internet连接是稳定的，尝试重启路由器。
+
+2. **关闭防火墙/杀毒软件**：有时候防火墙或杀毒软件会阻止Roblox的连接，尝试将其禁用后再次进入游戏。
+
+3. **重启设备**：完全关闭您的电脑或移动设备然后重新启动，这可以解决暂时的软件故障。
+
+4. **重新安装Roblox**：有时，重新安装Roblox客户端可以解决连接问题。
+
+5. **检查Roblox服务器状态**：有时问题可能是由Roblox服务器导致的。您可以在线检查Roblox服务器的状态，看是否有关于服务中断或维护的消息。
+
+6. **使用有线连接**：如果您是通过无线网络连接的，尝试改为有线连接，看是否能改善连接质量。
+
+7. **联系技术支持**：如果问题持续存在，您可能需要联系UgPhone或Roblox的技术支持，以获得更具体的帮助。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 无法使用免费测试
+------------------------------------ 很抱歉您遇到了无法使用免费测试的问题。为了协助您解决这个问题，我需要一些额外的信息：
+
+1. 您是否之前已经使用过免费测试？一般免费测试是有次数限制的。
+2. 您是否检查了自己的网络连接？有时候网络不稳定可能导致无法使用在线服务。
+3. 请您尝试刷新浏览器，然后再次尝试免费测试。
+4. 如果问题仍然存在，请尝试清理浏览器缓存或尝试使用不同的浏览器进行免费测试。
+5. 能否提供更具体的错误信息或截图？这样我可以更准确地判断问题所在。
+
+如果这些通用解决方案无效，请告诉我您使用的是哪个平台或服务的免费测试，我可以提供更具体的帮助。同时，请检查是否有任何系统提示或消息，可能服务方对免费测试有特定的时间段或条件限制。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你好
+------------------------------------ 你好！有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 268
+------------------------------------ Roblox游戏出现错误码268通常意味着你被从游戏中断开了连接，可能是由于你的客户端在不允许的情况下修改了游戏数据，或者由于其他连接问题。要解决这个问题，你可以尝试以下步骤：
+
+1. 重启你的UgPhone设备和路由器，确保网络连接良好。
+2. 确保你的Roblox应用是最新版本，如果不是，更新它。
+3. 清除UgPhone上Roblox应用的缓存和数据。
+4. 试着用其他网络连接，比如手机的移动数据。
+5. 关闭可能影响网络连接的VPN或代理设置。
+6. 检查Roblox的服务器状态，以确保服务在线运作正常。
+
+如果你尝试了上述所有步骤仍然无法解决问题，可以联系Roblox的客服或寻求技术支持帮助。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 277
+------------------------------------ Roblox游戏出现错误码277通常指示着你与游戏服务器之间的连接不稳定或被中断。为解决这个问题，你可以尝试以下步骤：
+
+1. 检查你的网络连接是否稳定。尝试重启路由器或切换到更稳定的网络连接，比如手机热点。
+2. 确保使用的是合法且正常的网络连接，而非通过VPN等可能导致连接不稳定的服务。
+3. 清除UgPhone上Roblox应用的缓存和数据。
+4. 确保你的Roblox应用是最新版本，如果不是，请进行更新。
+5. 如果使用的是Wi-Fi网络，尝试靠近路由器或者使用网线直接连接到路由器，以增强信号质量。
+6. 重启你的UgPhone设备，有时简单的重启可以解决意外的软件问题。
+7. 如果以上步骤都无法解决问题，可以检查是否在使用第三方辅助工具或作弊软件，如果有，应立即停用这些工具，并从官方途径下载游戏。
+8. 检查Roblox服务器状态，确认没有服务中断或维护工作。
+
+如问题依然存在，你可以联系Roblox客服或寻求UgPhone的技术支持帮助。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 请帮我把下述这段换翻译成日语：
+3. 请您尝试刷新浏览器，然后再次尝试免费测试。
+4. 如果问题仍然存在，请尝试清理浏览器缓存或尝试使用不同的浏览器进行免费测试。
+5. 能否提供更具体的错误信息或截图？这样我可以更准确地判断问题所在。
+------------------------------------ 3. ブラウザをリフレッシュしてから、再度無料テストをお試しください。
+4. 問題がまだ解決しない場合は、ブラウザのキャッシュをクリアするか、別のブラウザで無料テストを試してみてください。
+5. もっと具体的なエラーメッセージやスクリーンショットを提供していただけますでしょうか。それによって、問題をより正確に判断できます。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 香港设备画面花屏
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你知道白猫project怎么挂机吗
+------------------------------------ 127.0.0.1 - - [04/Mar/2024 09:08:09] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [04/Mar/2024 09:08:13] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:08:46] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:10:02] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:10:50] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:13:01] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:13:32] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [04/Mar/2024 09:13:35] "POST /chat HTTP/1.1" 200 -
+针对您提到的香港设备画面花屏的问题，可以尝试以下几种方法进行排查和解决：
+
+1. 重新启动云手机设备，看看是否可以解决问题。
+
+2. 清理云手机设备的后台应用，释放内存资源，然后再次尝试是否能够恢复正常。
+
+3. 检查是否是网络问题导致的画面花屏，尝试优化本地网络，比如更换到更稳定的网络环境（例如使用手机热点）进行测试。
+
+4. 如果云手机的浏览器出现花屏问题，可以尝试刷新浏览器，或者更换成谷歌浏览器尝试。
+
+5. 如果上述方法都无法解决问题，可能需要联系技术支持团队进一步排查。可能是设备自身的问题，需要技术人员介入修复。
+
+如果您尝试了这些建议仍然没有解决问题，建议您提供更多详情或截图，以便能够更准确地判断和解决问题。
+ Query successful
+------------------------------------ 关于"白猫Project"的挂机操作，我无法提供具体的挂机方案，因为挂机通常与游戏的公平性相违背，可能违反游戏的服务条款。大多数游戏开发者并不支持挂机行为，这可能导致账号受到惩罚，甚至封禁。
+
+如果你在玩"白猫Project"时遇到了操作的困难或者想要提高效率，我建议你尝试以下官方允许的方式来提高游戏体验：
+
+1. 了解游戏内部的自动战斗系统（如果游戏有提供的话），这通常是游戏官方允许的自动化方式。
+2. 合理安排游戏时间，充足的休息可以提高你游戏时的效率。
+3. 参考官方指南或资料，寻找高效升级和获取资源的方法。
+
+如果你遇到游戏中具体的问题，或者需要技术支持，建议直接联系官方客服获取帮助。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 请将上面这段话翻译成阿拉伯语
+------------------------------------ نص الإرشادات باللغة العربية كالتالي:
+
+يجب أن تستند إلى الإشارات التي قدمتها لك ومحادثات المستخدم، وتحاول الإجابة على أسئلة المستخدم كما يلي:
+تأكد من اتباع القواعد التالية:
+
+1. عندما يتعارض سجل المحادثة مع الإرشادات الإضافية، يجب الاعتماد على معلومات سجل المحادثة.
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你好
+------------------------------------ 你好！有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你知道MissCha的邮箱吗
+------------------------------------ 很抱歉，我没有MissCha的邮箱信息。如果你需要与某个公司或个人的特定联系方式，建议直接向相关公司或个人询问或者通过其官方网站、社交媒体平台等官方途径获取。请注意，出于隐私和安全的原因，不应在未经授权的情况下分享或尝试寻找他人的个人联系信息。如果有其他问题或者我可以帮助你的，请告诉我！
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 怎么分享设备给别人
+------------------------------------ 要分享设备给别人，你需要根据你所使用的设备或服务的具体分享功能来进行操作。例如，如果你使用的是云手机或类似的远程访问服务，通常服务提供商会在平台上提供设备分享的选项。以下是一个通用的步骤指南：
+
+1. 登录到你的账户，并找到设备管理或控制中心。
+2. 选择你想要分享的设备，然后寻找“分享”或“邀请”功能。
+3. 根据提示输入接收方的信息，比如邮箱地址或账号名称。
+4. 发送邀请。接收方收到邀请后，可能需要接受邀请才能访问设备。
+5. 根据平台规则设定分享权限，如访问时间和操作权限。
+
+请参考您所使用服务的具体指南，因为每个平台的分享方法可能有所不同。若有具体的服务名称或设备型号，我可以提供更精确的指导。同时，请注意安全性和隐私的保护，确保只与信任的人分享，并且有必要的话涉及到的人都同意分享设备。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 生成图片
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 如何将ugphone设备分享给别人
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+------------------------------------ 要将UgPhone设备分享给别人，您需要按照UgPhone的分享功能进行操作。通常分享设备的步骤可能会涉及以下步骤：
+
+1. 打开UgPhone应用。
+2. 进入设备管理或设置菜单。
+3. 找到“分享设备”或类似的选项。
+4. 输入或选择您想要分享的UgPhone设备。
+5. 根据提示，输入对方的账号信息或通过生成的链接或邀请码发送给对方。
+6. 确认分享信息并完成操作。
+
+分享时，请注意您可能需要确保分享的时间未到期，若分享时长到期，则设备可能会自动退出分享状态。如果您在操作中遇到任何问题或需要具体的指导，可以参考UgPhone的用户手册或联系UgPhone的客服获取帮助。
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+ Query successful
+29
+------------------------------------ 你的数据更新到几号
+------------------------------------ 我的数据更新到2023年。如果您有任何疑问或需要帮助，请随时告诉我。
+ Query successful
+------------------------------------ 127.0.0.1 - - [04/Mar/2024 09:13:38] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:21:58] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:22:48] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:34:48] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:35:21] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:35:32] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [04/Mar/2024 09:35:34] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:36:33] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+抱歉，作为文本生成的AI，我不能直接生成图片。不过，我可以提供一些常用的方法来创建或编辑图像：
+
+1. 使用图像编辑软件：
+   - 使用Photoshop、GIMP或其他图像编辑软件可以创建和编辑图片。
+   - 您可以在这些程序中从头开始创建图像，或者修改现有的图像。
+
+2. 使用在线图像编辑器：
+   - 有很多免费的在线图像编辑器如Canva、Pixlr等，它们提供了丰富的工具和模板来帮助您制作图片。
+   - 这些工具通常用户友好，提供了拖放功能。
+
+3. 使用AI图像生成工具：
+   - 存在一些基于AI的工具，如DeepArt、Deep Dream Generator等，这些工具可以将您的照片转换成艺术作品风格的图像。
+   - 这些AI工具通常要求您上传原始图片，然后选择一个特定的风格或提供一些参数来生成新图片。
+
+4. 通过编程创建图片：
+   - 如果您具有编程知识，可以使用如Python的PIL（Pillow）库或JavaScript的p5.js等图像处理库来绘制和生成图像。
+
+如果您需要进一步的帮助来创建或修改图像，您可以提供具体的需求，我可能能提供一些建议或者指导步骤。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你好
+------------------------------------ 你好！有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 我开剪映会员可以报销吗
+------------------------------------ 关于报销剪映会员的具体政策，我这边没有您的账户信息和相关政策的明确细节，一般来说，这类费用是否可以报销需要根据公司的相关规定和财务政策决定。建议您咨询所在公司的人力资源部门或者财务部门，了解公司是否支持这类费用的报销。如果是公司规定可以报销，通常需要您提供相应的费用发票或者收据，并按照公司的报销流程进行操作。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你好
+------------------------------------ 你好！有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Okay, you need to provide me:
+1.gmail
+2.Avatar
+3.Name
+4.Invitation code (6 digits or letters)
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 帮我翻译成越南语
+------------------------------------ 您好，您需要我帮您翻译什么内容成越南语？请提供具体信息，我将尽力帮助您。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Okay, you need to provide me:
+1.gmail
+2.Avatar
+3.Name
+4.Invitation code (6 digits or letters)
+------------------------------------ Sure, to assist you with registration or setup, I'll need to clarify a few points:
+
+1. Gmail: To provide or set up a Gmail account, typically I would guide you in how to create one if you don't already have a Gmail email address. However, as I am an AI, I cannot create email accounts or provide personal data such as email addresses due to privacy and security reasons.
+
+2. Avatar: For an avatar, you can choose any image that represents you or fits the platform's guidelines where you are registering. Make sure it's appropriate and aligns with community standards.
+
+3. Name: You should use a name you want to be identified with on the platform. It can be your real name or a pseudonym, depending on the platform's requirements and your personal preference.
+
+4. Invitation code: Invitation codes are usually provided by the platforms or by someone who has invited you to join a service. I cannot generate or provide invitation codes as they are unique and platform-specific.
+
+If you were expecting to receive this information from a specific service or person, please contact them directly. If you need general guidance on how to create a Gmail account or choose an avatar, let me know, and I can provide you with the steps for doing so.
+ Query successful
+------------------------------------ Sure, please provide the following information so I can assist you further:
+1. Your Gmail address
+2. The avatar you would like to use
+3. The name you want to display
+4. An invitation code consisting of 6 digits or letters
+
+Once you provide this information, I can proceed with your request.
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Sure, please provide the following information so I can assist you further:
+1. Your Gmail address
+2. The avatar you would like to use
+3. The name you want to display
+4. An invitation code consisting of 6 digits or letters
+
+Once you provide this information, I can proceed with your request.帮我把英文部分翻译成越南语
+------------------------------------ Chắc chắn, vui lòng cung cấp thông tin sau đây để tôi có thể hỗ trợ bạn:
+1. Địa chỉ Gmail của bạn
+2. Hình đại diện bạn muốn sử dụng
+3. Tên bạn muốn hiển thị
+4. Mã mời gồm 6 chữ số hoặc chữ cái
+
+Một khi bạn cung cấp thông tin này, tôi có thể tiến hành với yêu cầu của bạn.
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 错误277
+------------------------------------ 127.0.0.1 - - [04/Mar/2024 09:37:35] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [04/Mar/2024 09:38:10] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [04/Mar/2024 09:38:11] "POST /chat HTTP/1.1" 200 -

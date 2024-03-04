@@ -1,0 +1,20 @@
+
+#测试glm2
+curl -X POST "http://14.136.93.113:8000" \
+     -H 'Content-Type: application/json' \
+     -d '{"prompt": "你好", "history": []}'
+# glm3
+curl -X POST "http://14.136.93.113:8000/v1/chat/completions" \
+-H "Content-Type: application/json" \
+-d "{\"model\": \"chatglm3-6b\", \"messages\": [{\"role\": \"system\", \"content\": \"You are ChatGLM3, a large language model trained by Zhipu.AI. Follow the user's instructions carefully. Respond using markdown.\"}, {\"role\": \"user\", \"content\": \"你好\"}], \"stream\": false, \"max_tokens\": 100, \"temperature\": 0.8, \"top_p\": 0.8}"
+
+
+curl -X POST "http://154.206.15.28:8000" \
+     -H 'Content-Type: application/json' \
+     -d '{"prompt": "你好", "history": []}'
+
+# 测试4*3090主机GLM3  154.206.15.28
+
+curl -X POST "http://103.141.225.18:8000/v1/chat/completions" \
+-H "Content-Type: application/json" \
+-d "{\"model\": \"chatglm3-6b\", \"messages\": [{\"role\": \"system\", \"content\": \"You are ChatGLM3, a large language model trained by Zhipu.AI. Follow the user's instructions carefully. Respond using markdown.\"}, {\"role\": \"user\", \"content\": \"你好\"}], \"stream\": false, \"max_tokens\": 100, \"temperature\": 0.8, \"top_p\": 0.8}"

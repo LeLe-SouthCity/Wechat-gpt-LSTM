@@ -1,0 +1,29 @@
+name: langchain3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.12
+  - pip
+  - pip:
+    - langchain
+    - langchain-community
+    - chromadb
+    - faiss-cpu
+    - tiktoken
+    - openai
+    - streamlit
+    - matplotlib
+    - python-docx
+    - redis
+    - fitz
+    - frontend
+    - elevenlabs
+    - stability_sdk
+    - streamlit_image_select
+    - tools
+    - jieba
+    - mysql-connector-python
+    - unstructured
+    - "unstructured[pdf]"
+prefix: /home/ubuntu/miniconda3/envs/langchain2

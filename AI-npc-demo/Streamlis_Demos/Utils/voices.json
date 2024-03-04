@@ -1,0 +1,524 @@
+{
+    "中文": {
+        "通用场景": [
+            {
+                "音色名称": "灿灿 2.0",
+                "voice_type": "BV700_V2_streaming"
+            },
+            {
+                "音色名称": "炀炀",
+                "voice_type": "BV705_streaming"
+            },
+            {
+                "音色名称": "擎苍 2.0",
+                "voice_type": "BV701_V2_streaming"
+            },
+            {
+                "音色名称": "通用女声 2.0",
+                "voice_type": "BV001_V2_streaming"
+            },
+            {
+                "音色名称": "灿灿",
+                "voice_type": "BV700_streaming"
+            },
+            {
+                "音色名称": "超自然音色-梓梓2.0",
+                "voice_type": "BV406_V2_streaming"
+            },
+            {
+                "音色名称": "超自然音色-梓梓",
+                "voice_type": "BV406_streaming"
+            },
+            {
+                "音色名称": "超自然音调 - Burn 2.0",
+                "voice_type": "BV407_V2_streaming"
+            },
+            {
+                "音色名称": "超自然的音调 - 燃烧",
+                "voice_type": "BV407_streaming"
+            },
+            {
+                "音色名称": "通用女声",
+                "voice_type": "BV001_streaming"
+            },
+            {
+                "音色名称": "通用男声",
+                "voice_type": "BV002_streaming"
+            }
+        ],
+        "有声阅读": [
+            {
+                "音色名称": "擎苍",
+                "voice_type": "BV701_streaming"
+            },
+            {
+                "音色名称": "阳光青年",
+                "voice_type": "BV123_streaming"
+            },
+            {
+                "音色名称": "反卷青年",
+                "voice_type": "BV120_streaming"
+            },
+            {
+                "音色名称": "通用赘婿",
+                "voice_type": "BV119_streaming"
+            },
+            {
+                "音色名称": "古风少御",
+                "voice_type": "BV115_streaming"
+            },
+            {
+                "音色名称": "霸气青叔",
+                "voice_type": "BV107_streaming"
+            },
+            {
+                "音色名称": "质朴青年",
+                "voice_type": "BV100_streaming"
+            },
+            {
+                "音色名称": "温柔淑女",
+                "voice_type": "BV104_streaming"
+            },
+            {
+                "音色名称": "开朗青年",
+                "voice_type": "BV004_streaming"
+            },
+            {
+                "音色名称": "甜宠少御",
+                "voice_type": "BV113_streaming"
+            },
+            {
+                "音色名称": "儒雅青年",
+                "voice_type": "BV102_streaming"
+            }
+        ],
+        "智能助手": [
+            {
+                "音色名称": "甜美小源",
+                "voice_type": "BV405_streaming"
+            },
+            {
+                "音色名称": "亲切女声",
+                "voice_type": "BV007_streaming"
+            },
+            {
+                "音色名称": "知性女声",
+                "voice_type": "BV009_streaming"
+            },
+            {
+                "音色名称": "诚诚",
+                "voice_type": "BV419_streaming"
+            },
+            {
+                "音色名称": "童童",
+                "voice_type": "BV415_streaming"
+            },
+            {
+                "音色名称": "亲切男声",
+                "voice_type": "BV008_streaming"
+            }
+        ],
+        "视频配音": [
+            {
+                "音色名称": "译制片男声",
+                "voice_type": "BV408_streaming"
+            },
+            {
+                "音色名称": "懒小羊",
+                "voice_type": "BV426_streaming"
+            },
+            {
+                "音色名称": "清新文艺女声",
+                "voice_type": "BV428_streaming"
+            },
+            {
+                "音色名称": "鸡汤女声",
+                "voice_type": "BV403_streaming"
+            },
+            {
+                "音色名称": "智慧老者",
+                "voice_type": "BV158_streaming"
+            },
+            {
+                "音色名称": "慈爱姥姥",
+                "voice_type": "BV157_streaming"
+            },
+            {
+                "音色名称": "说唱小哥",
+                "voice_type": "BR001_streaming"
+            },
+            {
+                "音色名称": "活力解说男",
+                "voice_type": "BV410_streaming"
+            },
+            {
+                "音色名称": "影视解说小帅",
+                "voice_type": "BV411_streaming"
+            },
+            {
+                "音色名称": "解说小帅-多情感",
+                "voice_type": "BV437_streaming"
+            },
+            {
+                "音色名称": "影视解说小美",
+                "voice_type": "BV412_streaming"
+            },
+            {
+                "音色名称": "纨绔青年",
+                "voice_type": "BV159_streaming"
+            },
+            {
+                "音色名称": "直播一姐",
+                "voice_type": "BV418_streaming"
+            },
+            {
+                "音色名称": "反卷青年",
+                "voice_type": "BV120_streaming"
+            },
+            {
+                "音色名称": "沉稳解说男",
+                "voice_type": "BV142_streaming"
+            },
+            {
+                "音色名称": "潇洒青年",
+                "voice_type": "BV143_streaming"
+            },
+            {
+                "音色名称": "阳光男声",
+                "voice_type": "BV056_streaming"
+            },
+            {
+                "音色名称": "活泼女声",
+                "voice_type": "BV005_streaming"
+            },
+            {
+                "音色名称": "小萝莉",
+                "voice_type": "BV064_streaming"
+            }
+        ],
+        "特色音色": [
+            {
+                "音色名称": "奶气萌娃",
+                "voice_type": "BV051_streaming"
+            },
+            {
+                "音色名称": "动漫海绵",
+                "voice_type": "BV063_streaming"
+            },
+            {
+                "音色名称": "动漫海星",
+                "voice_type": "BV417_streaming"
+            },
+            {
+                "音色名称": "动漫小新",
+                "voice_type": "BV050_streaming"
+            },
+            {
+                "音色名称": "天才童声",
+                "voice_type": "BV061_streaming"
+            }
+        ],
+        "广告配音": [
+            {
+                "音色名称": "促销男声",
+                "voice_type": "BV401_streaming"
+            },
+            {
+                "音色名称": "促销女声",
+                "voice_type": "BV402_streaming"
+            },
+            {
+                "音色名称": "磁性男声",
+                "voice_type": "BV006_streaming"
+            }
+        ],
+        "新闻播报": [
+            {
+                "音色名称": "新闻女声",
+                "voice_type": "BV011_streaming"
+            },
+            {
+                "音色名称": "新闻男声",
+                "voice_type": "BV012_streaming"
+            }
+        ],
+        "教育场景": [
+            {
+                "音色名称": "知性姐姐-双语",
+                "voice_type": "BV034_streaming"
+            },
+            {
+                "音色名称": "温柔小哥",
+                "voice_type": "BV033_streaming"
+            }
+        ]
+    },
+    "多语种": {
+        "美式英语": [
+            {
+                "音色名称": "慵懒女声-Ava",
+                "voice_type": "BV511_streaming"
+            },
+            {
+                "音色名称": "议论女声-Alicia",
+                "voice_type": "BV505_streaming"
+            },
+            {
+                "音色名称": "情感女声-Lawrence",
+                "voice_type": "BV138_streaming"
+            },
+            {
+                "音色名称": "美式女声-Amelia",
+                "voice_type": "BV027_streaming"
+            },
+            {
+                "音色名称": "讲述女声-Amanda",
+                "voice_type": "BV502_streaming"
+            },
+            {
+                "音色名称": "活力女声-Ariana",
+                "voice_type": "BV503_streaming"
+            },
+            {
+                "音色名称": "活力男声-Jackson",
+                "voice_type": "BV504_streaming"
+            },
+            {
+                "音色名称": "天才少女",
+                "voice_type": "BV421_streaming"
+            },
+            {
+                "音色名称": "斯特凡",
+                "voice_type": "BV702_streaming"
+            },
+            {
+                "音色名称": "天真萌娃-Lily",
+                "voice_type": "BV506_streaming"
+            }
+        ],
+        "英式英语": [
+            {
+                "音色名称": "亲切女声-Anna",
+                "voice_type": "BV040_streaming"
+            }
+        ],
+        "澳洲英语": [
+            {
+                "音色名称": "澳洲男声-Henry",
+                "voice_type": "BV516_streaming"
+            }
+        ],
+        "日语": [
+            {
+                "音色名称": "元气少女",
+                "voice_type": "BV520_streaming"
+            },
+            {
+                "音色名称": "萌系少女",
+                "voice_type": "BV521_streaming"
+            },
+            {
+                "音色名称": "天才少女",
+                "voice_type": "BV421_streaming"
+            },
+            {
+                "音色名称": "气质女声",
+                "voice_type": "BV522_streaming"
+            },
+            {
+                "音色名称": "斯特凡",
+                "voice_type": "BV702_streaming"
+            },
+            {
+                "音色名称": "灿灿",
+                "voice_type": "BV700_streaming"
+            },
+            {
+                "音色名称": "日语男声",
+                "voice_type": "BV524_streaming"
+            }
+        ],
+        "葡萄牙语": [
+            {
+                "音色名称": "活力男声Carlos（巴西地区）",
+                "voice_type": "BV531_streaming"
+            },
+            {
+                "音色名称": "活力女声（巴西地区）",
+                "voice_type": "BV530_streaming"
+            },
+            {
+                "音色名称": "天才少女",
+                "voice_type": "BV421_streaming"
+            },
+            {
+                "音色名称": "斯特凡",
+                "voice_type": "BV702_streaming"
+            },
+            {
+                "音色名称": "灿灿",
+                "voice_type": "BV700_streaming"
+            }
+        ],
+        "西班牙语": [
+            {
+                "音色名称": "气质御姐（墨西哥地区）",
+                "voice_type": "BV065_streaming"
+            },
+            {
+                "音色名称": "天才少女",
+                "voice_type": "BV421_streaming"
+            },
+            {
+                "音色名称": "斯特凡",
+                "voice_type": "BV702_streaming"
+            },
+            {
+                "音色名称": "灿灿",
+                "voice_type": "BV700_streaming"
+            }
+        ],
+        "泰语": [
+            {
+                "音色名称": "天才少女",
+                "voice_type": "BV421_streaming"
+            }
+        ],
+        "越南语": [
+            {
+                "音色名称": "天才少女",
+                "voice_type": "BV421_streaming"
+            }
+        ],
+        "印尼语": [
+            {
+                "音色名称": "天才少女",
+                "voice_type": "BV421_streaming"
+            },
+            {
+                "音色名称": "斯特凡",
+                "voice_type": "BV702_streaming"
+            },
+            {
+                "音色名称": "灿灿",
+                "voice_type": "BV700_streaming"
+            }
+        ]
+    },
+    "方言": {
+        "东北话": [
+            {
+                "音色名称": "东北老铁",
+                "voice_type": "BV021_streaming"
+            },
+            {
+                "音色名称": "东北丫头",
+                "voice_type": "BV020_streaming"
+            },
+            {
+                "音色名称": "方言灿灿",
+                "voice_type": "BV704_streaming"
+            }
+        ],
+        "西安话": [
+            {
+                "音色名称": "西安佟掌柜",
+                "voice_type": "BV210_streaming"
+            },
+            {
+                "音色名称": "方言灿灿",
+                "voice_type": "BV704_streaming"
+            }
+        ],
+        "上海话": [
+            {
+                "音色名称": "沪上阿姐",
+                "voice_type": "BV217_streaming"
+            },
+            {
+                "音色名称": "方言灿灿",
+                "voice_type": "BV704_streaming"
+            }
+        ],
+        "广西普通话": [
+            {
+                "音色名称": "广西表哥",
+                "voice_type": "BV213_streaming"
+            },
+            {
+                "音色名称": "方言灿灿",
+                "voice_type": "BV704_streaming"
+            }
+        ],
+        "台湾普通话": [
+            {
+                "音色名称": "甜美台妹",
+                "voice_type": "BV025_streaming"
+            },
+            {
+                "音色名称": "台普男声",
+                "voice_type": "BV227_streaming"
+            },
+            {
+                "音色名称": "方言灿灿",
+                "voice_type": "BV704_streaming"
+            }
+        ],
+        "粤语": [
+            {
+                "音色名称": "港剧男神",
+                "voice_type": "BV026_streaming"
+            },
+            {
+                "音色名称": "广东女仔",
+                "voice_type": "BV424_streaming"
+            },
+            {
+                "音色名称": "方言灿灿",
+                "voice_type": "BV704_streaming"
+            }
+        ],
+        "天津话": [
+            {
+                "音色名称": "相声演员",
+                "voice_type": "BV212_streaming"
+            }
+        ],
+        "川渝话": [
+            {
+                "音色名称": "重庆小伙",
+                "voice_type": "BV019_streaming"
+            },
+            {
+                "音色名称": "四川甜妹儿",
+                "voice_type": "BV221_streaming"
+            },
+            {
+                "音色名称": "重庆幺妹儿",
+                "voice_type": "BV423_streaming"
+            },
+            {
+                "音色名称": "方言灿灿（成都）",
+                "voice_type": "BV704_streaming"
+            }
+        ],
+        "郑州话": [
+            {
+                "音色名称": "乡村企业家",
+                "voice_type": "BV214_streaming"
+            }
+        ],
+        "湖南普通话": [
+            {
+                "音色名称": "湖南妹坨",
+                "voice_type": "BV226_streaming"
+            }
+        ],
+        "长沙话": [
+            {
+                "音色名称": "长沙靓女",
+                "voice_type": "BV216_streaming"
+            }
+        ]
+    }
+}
