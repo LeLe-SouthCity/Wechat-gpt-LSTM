@@ -2164,3 +2164,540 @@ Number of requested results 20 is greater than number of elements in index 1, up
 Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
 127.0.0.1 - - [04/Mar/2024 09:38:10] "POST /chat HTTP/1.1" 200 -
 127.0.0.1 - - [04/Mar/2024 09:38:11] "POST /chat HTTP/1.1" 200 -
+123.254.110.97 - - [04/Mar/2024 13:26:01] "[33mGET /status HTTP/1.1[0m" 404 -
+194.48.250.106 - - [04/Mar/2024 13:40:01] "[33mCONNECT 45.61.137.126:7227 HTTP/1.1[0m" 404 -
+185.170.144.3 - - [04/Mar/2024 16:28:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+185.170.144.3 - - [04/Mar/2024 16:28:14] "[31m[1m\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie: mstshash=Administr[0m" 400 -
+167.94.145.52 - - [04/Mar/2024 18:38:52] code 400, message Bad request version ('À\x14À')
+167.94.145.52 - - [04/Mar/2024 18:38:52] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x09ÎÿÞ\x0b\x9a\x98Ý.\x82ë\x1ew\x86=¦\x0cXð¡}F8êCw"Ó¿¦0\x96 øzZ\x96@Ê®¶\x81g2m\x0b \x85\x02ÐMóÌ\x8fÇj}·\x9dþÊ\x122\x10ç\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+167.94.145.52 - - [04/Mar/2024 18:38:56] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.52 - - [04/Mar/2024 18:38:59] "[33mGET / HTTP/1.1[0m" 404 -
+167.94.145.52 - - [04/Mar/2024 18:38:59] code 505, message Invalid HTTP version (2.0)
+167.94.145.52 - - [04/Mar/2024 18:38:59] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+205.210.31.70 - - [04/Mar/2024 20:59:04] "[33mGET / HTTP/1.0[0m" 404 -
+94.156.71.223 - - [04/Mar/2024 23:14:47] "[33mCONNECT 193.149.189.126:7227 HTTP/1.1[0m" 404 -
+162.142.125.220 - - [05/Mar/2024 00:41:33] code 400, message Bad request version ('À\x14À')
+162.142.125.220 - - [05/Mar/2024 00:41:33] "[31m[1m\x16\x03\x01\x00î\x01\x00\x00ê\x03\x03\x84ï¿<\x1f\x13â`?4\x96\x16\x16\x0c­ÄD¶\x19Ê\x08Oý\x95¸¨áä\x19å)| ÇÔ\x09æ=¯³ûÅÓ¢1ß÷\x93\x999Â\x84\x08[áSHÃ¥HGJjÂ!\x00&Ì¨Ì©À/À0À+À,À\x13À\x09À\x14À[0m" 400 -
+162.142.125.220 - - [05/Mar/2024 00:41:36] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.220 - - [05/Mar/2024 00:41:40] "[33mGET / HTTP/1.1[0m" 404 -
+162.142.125.220 - - [05/Mar/2024 00:41:41] code 505, message Invalid HTTP version (2.0)
+162.142.125.220 - - [05/Mar/2024 00:41:41] "[35m[1mPRI * HTTP/2.0[0m" 505 -
+205.210.31.178 - - [05/Mar/2024 00:45:38] "[33mGET / HTTP/1.1[0m" 404 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 02:16:57] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 227, in chat
+    save_chat_to_db(user_input, ai_response)
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 82, in save_chat_to_db
+    db.execute_query(insert_query, (user_input, gpt_response, timestamp))
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/MySql_Utils/mysql_api.py", line 75, in execute_query
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/mysql/connector/connection_cext.py", line 728, in cursor
+    raise OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 02:51:08] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 227, in chat
+    save_chat_to_db(user_input, ai_response)
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 82, in save_chat_to_db
+    db.execute_query(insert_query, (user_input, gpt_response, timestamp))
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/MySql_Utils/mysql_api.py", line 75, in execute_query
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/mysql/connector/connection_cext.py", line 728, in cursor
+    raise OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 02:58:35] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 227, in chat
+    save_chat_to_db(user_input, ai_response)
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 82, in save_chat_to_db
+    db.execute_query(insert_query, (user_input, gpt_response, timestamp))
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/MySql_Utils/mysql_api.py", line 75, in execute_query
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/mysql/connector/connection_cext.py", line 728, in cursor
+    raise OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 02:58:37] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 227, in chat
+    save_chat_to_db(user_input, ai_response)
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 82, in save_chat_to_db
+    db.execute_query(insert_query, (user_input, gpt_response, timestamp))
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/MySql_Utils/mysql_api.py", line 75, in execute_query
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/mysql/connector/connection_cext.py", line 728, in cursor
+    raise OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 03:05:13] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 227, in chat
+    save_chat_to_db(user_input, ai_response)
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 82, in save_chat_to_db
+    db.execute_query(insert_query, (user_input, gpt_response, timestamp))
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/MySql_Utils/mysql_api.py", line 75, in execute_query
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/mysql/connector/connection_cext.py", line 728, in cursor
+    raise OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 03:07:13] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1488, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1466, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 1463, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 872, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 870, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py", line 855, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 227, in chat
+    save_chat_to_db(user_input, ai_response)
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 82, in save_chat_to_db
+    db.execute_query(insert_query, (user_input, gpt_response, timestamp))
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/MySql_Utils/mysql_api.py", line 75, in execute_query
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/lib/python3.11/site-packages/mysql/connector/connection_cext.py", line 728, in cursor
+    raise OperationalError("MySQL Connection not available.")
+mysql.connector.errors.OperationalError: MySQL Connection not available.
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:14:24.563 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:14:24.568 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ Query successful
+ Query successful
+ * Serving Flask app 'vectorflask'
+ * Debug mode: on
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.18.0.190:5000
+[33mPress CTRL+C to quit[0m
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:14:29.863 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:14:29.868 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+2024-03-05 03:15:27.119 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run vectorflask.py [ARGUMENTS]
+127.0.0.1 - - [05/Mar/2024 03:15:38] "POST /chat HTTP/1.1" 200 -
+178.128.42.221 - - [05/Mar/2024 03:16:58] code 400, message Bad request version ('¾Ï\x17\x999^J>È[\x93QÉbáV×ñoK\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À')
+178.128.42.221 - - [05/Mar/2024 03:16:58] "[31m[1m\x16\x03\x01\x01û\x01\x00\x01÷\x03\x03;]\x09\x97äë\x01(qúà\x85¾Ï\x17\x999^J>È[\x93QÉbáV×ñoK\x00\x01<Ì\x14Ì\x13Ì\x15À0À,À(À$À\x14À[0m" 400 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 03:21:34] "POST /chat HTTP/1.1" 200 -
+84.54.51.241 - - [05/Mar/2024 03:37:28] code 400, message Bad request syntax ('JDWP-Handshake')
+84.54.51.241 - - [05/Mar/2024 03:37:28] "[31m[1mJDWP-Handshake[0m" 400 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 03:46:51] "POST /chat HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/PDF向量记忆库检索.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/PDF向量记忆库检索.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/PDF向量记忆库检索.py', reloading
+ Query successful
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你对og了解吗
+------------------------------------ 是的，我对Og有所了解。Og是OgCloud的简称，是一家国家高新科技出海领军企业，以环球骨干网络和ARM云计算技术为支撑，专注于构建AI互娱科技平台。Og的业务范围涉及游戏、云计算、国际网络等多个领域，并且其市场覆盖中国、东南亚、美洲、欧洲等多地区。Og致力于支持科技的全球化进程，并为国家知识产权和科技出海做出贡献。此外，从您之前的对话中，我了解到您对Og公司的招聘信息感兴趣，并询问了相关问题。如果您需要更多关于Og的信息或其他方面的帮助，请随时告诉我。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你是谁
+------------------------------------ 我是一个人工智能助手，专为帮助和解答您的问题而设计。如果您有任何疑问或需要帮助，无论是有关Og公司的招聘信息、其云游戏服务，还是关于技术或一般性的问题，都可以随时向我提问。我会尽我所能为您提供帮助。有什么可以帮您的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Og是什么公司
+------------------------------------ Og是OgCloud的简称，它是一家国家高新科技出海领军企业，专注于构建AI互娱科技平台。OgCloud的业务覆盖了游戏、云计算、国际网络等多个领域，并且市场遍及中国、东南亚、美洲、欧洲等多个地区。OgCloud致力于通过环球骨干网络和ARM云计算等技术支持，推动科技全球化，为国家知识产权和科技出海做出贡献。
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:49:04.249 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:49:04.252 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:49:58.065 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:49:58.070 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:50:09.144 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:50:09.149 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/pdf文件替换.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:50:16.726 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:50:16.730 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:50:38.769 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:50:38.776 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:50:50.434 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:50:50.438 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:50:58.396 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:50:58.400 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:51:15.658 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:51:15.664 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:51:23.005 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:51:23.010 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:51:34.925 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:51:34.930 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:51:57.143 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:51:57.148 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:52:07.749 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:52:07.753 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:52:16.755 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:52:16.759 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:52:40.728 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:52:40.734 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:52:49.238 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:52:49.242 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/对话历史及可视化.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 03:53:10.980 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 03:53:10.984 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041

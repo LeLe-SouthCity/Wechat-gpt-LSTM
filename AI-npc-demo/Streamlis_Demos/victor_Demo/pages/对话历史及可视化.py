@@ -6,6 +6,8 @@ import streamlit as st
 import matplotlib.pyplot as plt
 from Vector_Utils.vector_api import *
 
+from pathlib import Path
+
 # 获取 utils.py 所在的文件夹路径
 utils_path = os.path.abspath('/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils')
 
@@ -20,9 +22,8 @@ st.set_page_config(
     page_icon="👋",
 )
 
-json_file_path = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/chat_history.json"# 替换为你的 JSON 文件路径
-word_file_path = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/output_file.docx"# 替换为您想要保存的 Word 文件路径
-
+json_file_path = Path(ROOT_DIR) / "victor_Demo" / "chat_history.json" 
+word_file_path = Path(ROOT_DIR) / "victor_Demo" / "pages" / "test" /"output_file.docx"
 st.sidebar.write("短期记忆")
 st.sidebar.write(st.session_state['short_history'])
 def calculate_average(df, column_name):
@@ -107,7 +108,7 @@ with tab2:
         
     # 检索按钮
     if st.button("检索"):
-        path = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test"
+        path = Path(ROOT_DIR) / "victor_Demo" / "pages" / "test" 
         info=aires.vector_file(input=input,path =path )
         # content = chat_completion.choices[0].message.content
         cola,colb =  st.columns(2)

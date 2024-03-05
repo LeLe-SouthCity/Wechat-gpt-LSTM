@@ -2,7 +2,7 @@ import streamlit as st
 from utils import *
 from pathlib import Path
 
-st.title("pdf文件替换以及测试")
+st.title("向量记忆库测试Demo")
 st.write("仅支持PDF或Doc")
 
 # 创建AI_Response_API的实例
@@ -12,7 +12,7 @@ aires = AI_Response_API()
 uploaded_file = st.file_uploader("Choose a file")
 
 # 指定你想要列出文件夹的路径
-path = Path(ROOT_DIR) / "victor_Demo" / "pages" / "src" / "test" 
+path = Path(ROOT_DIR) / "victor_Demo" / "pages" / "src" /"files"
 # 使用Path对象的iterdir()方法列出所有子目录
 folders = [item.name for item in path.iterdir() if item.is_dir()]
 # 在文件夹列表前面插入一个空选项或者描述性占位符

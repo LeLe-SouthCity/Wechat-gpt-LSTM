@@ -13,8 +13,7 @@ aires = AI_Response_API()
 uploaded_file = st.file_uploader("Choose a file")
 
 # 指定目标文件夹的路径
-target_folder_path = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src"
-
+target_folder_path = Path(ROOT_DIR) / "victor_Demo" / "pages" / "test" /"src"
 # 定义标准文件名，用于在服务器上保存文件
 standard_file_name = "standard_document.pdf"
 # 指定要删除的文件夹名称（位于目标文件夹路径下）
