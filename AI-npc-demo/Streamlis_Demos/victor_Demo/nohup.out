@@ -2701,3 +2701,766 @@ To install langchain-community run `pip install -U langchain-community`.
 2024-03-05 03:53:10.984 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
  * Debugger is active!
  * Debugger PIN: 438-589-041
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+2024-03-05 03:59:02.697 
+  [33m[1mWarning:[0m to view this Streamlit app on a browser, run it with the following
+  command:
+
+    streamlit run vectorflask.py [ARGUMENTS]
+127.0.0.1 - - [05/Mar/2024 03:59:19] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:12:22] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:19:22] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:20:05] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:20:34] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:22:15] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:22:39] "POST /chat HTTP/1.1" 200 -
+ Query successful
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 推流打开白屏
+------------------------------------ 出现推流打开白屏的情况，可以首先检查一下您本地的网络连接是否稳定，以及是否有VPN正在运行。VPN的使用可能会影响到推流服务的正常连接。此外，请确保您的浏览器是兼容的版本，因为部分浏览器可能不支持推流服务。
+
+如果网络连接没有问题，可以尝试以下几个步骤来解决白屏问题：
+
+1. 关闭推流窗口，然后重新打开尝试连接。
+2. 重启云手机设备，查看是否能够正常推流。
+3. 清理后台重新打开应用，可能有挂起的服务导致白屏。
+4. 如果问题依然存在，可能是云手机设备的推流服务出现了故障。请检查设备状态是否显示为“故障”，如果是，可能需要技术人员介入修复。
+
+如果上述方法都无法解决问题，那么可能需要登记Bug表，由技术人员进一步检查和修复，或者考虑为您更换一台设备。在等待技术支持时，可以引导您使用另一个机房的设备，或尝试使用相同账号登录其他设备进行操作。如果您尝试过这些步骤之后问题仍未解决，请您提供更多的信息，例如设备号等，以便进一步进行技术支持。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 切换机型显示参数错误
+------------------------------------ 根据您提供的情况，“切换机型显示参数错误”可能是由于操作不当或系统问题导致的。请您尝试以下步骤解决问题：
+
+1. 确认输入的机型参数是否正确，包括格式和数据的准确性。
+2. 如果您正在使用云手机，并且尝试通过云手机设备大师来修改机型，请确保您选择的机型信息与云手机当前的配置相兼容。
+3. 检查云手机系统是否需要更新，有时旧版本的系统可能不支持某些新机型的参数。
+4. 重启云手机后再次尝试切换机型。
+
+如果以上方法仍然无法解决问题，您可能需要联系OgPhone云手机的技术支持核查具体原因，并协助您进行处理。同时，确保您在操作过程中遵循了正确的教程指引，以防操作失误导致参数错误。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你好
+------------------------------------ 你好！有什么可以帮助你的吗？
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 中午吃啥好呢
+------------------------------------ 中午的餐点可以根据个人口味和饮食习惯来决定。如果您需要建议，您可以考虑以下几种选择：
+
+1. 健康均衡的餐点：一份烤鸡肉、蒸鱼或豆腐，搭配蔬菜沙拉或炒蔬菜，再配以一份全麦面包或糙米饭。
+2. 快速便餐：如果时间紧迫，可以选择三明治、寿司盒、沙拉饭盒等。
+3. 热门地方美食：如果您想尝试一些特色，可以根据当地流行的美食进行选择，如意大利面、拉面、咖喱饭等。
+4. 家常便饭：如果想要简单又满足的餐点，可以选择拌面、饺子、米线或者是简易的中式快餐盖饭。
+
+选择的时候记得考虑自己的身体状况和当天的饮食计划，保证营养均衡。偶尔也可以奖励自己一些喜爱的食物，只要不是每天都吃。希望您有个美好的午餐时光！
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 谢谢
+------------------------------------ 不客气！如果还有其他问题或需要帮助，随时告诉我。祝您有一个愉快的一天！
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 回南天要什么办呢
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 回南天要怎么办呢
+------------------------------------ "回南天"通常指春季南方城市的潮湿气候，相对湿度较大，室内外物品容易受潮，给生活带来不便。以下是您可以尝试的一些应对措施：
+
+1. 通风：确保居住环境有良好的通风条件，打开窗户让空气流通，尽量减少室内湿气。
+2. 除湿：使用除湿机、空调的除湿功能或吸湿盒来降低室内湿度。
+3. 防霉：在易发霉的物品上放置干燥剂，如衣柜、抽屉等地方，可使用硅胶干燥剂或活性炭。
+4. 干燥剂：在橱柜、鞋柜等封闭空间放入干燥剂，如除湿盒等。
+5. 清洁：保持室内物品干净，定期清洁墙壁、地板、家具等，可以用干布擦拭，避免霉菌孳生。
+6. 晾晒：有条件的话，将衣物、被褥、垫子等拿到户外晾晒，利用阳光杀菌和除湿。
+7. 防潮：对于电器和重要文件，建议使用防潮箱、密封袋等设备来存放保护。
+
+适当采取上述措施可以有效减轻回南天带来的影响。如果您有特殊需求或者家中出现了由于潮湿导致的问题（如霉菌过敏等），建议咨询专业人士获得适合的解决方案。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 好的
+------------------------------------ 很高兴能为您服务，如果您有其他问题或需要帮助，请随时告诉我。祝您今天过得愉快！
+ Query successful
+------------------------------------ 127.0.0.1 - - [05/Mar/2024 04:22:44] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:24:20] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:25:20] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:26:14] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+回南天，又称梅雨季，是春季和初夏通常出现在南方地区的一种高湿度天气现象，通常会导致室内外湿度加大，空气闷热，东西易发霉。对付回南天可以采取以下措施：
+
+1. 保持室内通风：每天适量开窗通风，促进空气流通，减少房间湿度。
+
+2. 使用除湿设备：如果条件允许，使用除湿机或空调的除湿功能来降低室内湿度。
+
+3. 吸湿剂和干燥剂：在衣柜、鞋柜等容易发霉的地方放置吸湿剂和干燥剂。
+
+4. 日常保养：尽量不要在室内晾晒衣物，晾晒衣物会增加室内湿度。
+
+5. 使用小型电器：使用小风扇、空气循环扇帮助提高空气流动性。
+
+6. 防霉措施：清洁家具表面，使用防霉喷剂，尤其是对于皮质家具和其他容易生霉的物品，应该及时擦拭保养。
+
+7. 放置活性炭：活性炭具有很好的吸湿和去味功能，可以放在房间角落或者衣柜中帮助吸收湿气和异味。
+
+8. 防腐蚀措施：电器、金属工具等应该注意保护，防止因潮湿而生锈或损坏。
+
+这些是一些通用的建议，如果你有额外的条件或需要针对具体的问题处理，可以进一步说明，以便提供更具体的建议。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 云手机推流白屏
+------------------------------------ 关于"云手机推流白屏"的问题，您可以尝试以下几个步骤来解决：
+
+1. **检查云手机网络连接**：确保云手机的网络连接正常，有时网络不稳定或者断开连接可能会导致白屏。
+
+2. **重启推流服务**：尝试在云手机的后台管理中重启推流服务，看是否能够解决白屏的问题。
+
+3. **重新连接云手机**：
+   - 关闭云手机的连接，稍等片刻后再重新连接。
+   - 如果您使用的是网页端或者苹果端，确保已经关闭推流，然后尝试在Android端重新推流。
+
+4. **清理缓存**：如果云手机中的应用有缓存，尝试清理应用缓存信息后再重新登录推流。
+
+5. **设备问题**：如果上述方法均无法解决白屏问题，可能是云手机自身的问题。检查云手机设备状态是否为“离线”，如果设备状态正常，可能需要技术人员介入排查问题。若设备离线，则需要尝试重启设备或联系技术支持进一步处理。
+
+6. **联系技术支持**：
+   - 如果尝试上述解决方法后仍然无效，建议联系云手机的技术支持团队寻求帮助。
+   - 您可以提供相关的错误截图、日志信息以及您已经尝试过的解决方法，以便技术团队能够更快地定位问题并提供解决方案。
+
+请按照上述步骤尝试，看是否能够解决推流白屏的问题。如果问题依然存在，请及时与技术支持团队联系。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 推流打开白屏
+------------------------------------ 针对云手机推流出现白屏的情况，您可以按照以下步骤操作：
+
+1. **检查设备状态**：
+   - 请查看云手机的设备状态是否为“离线”。如果设备状态正常，请尝试下一个步骤；如果设备已经离线，请尝试重启设备。
+
+2. **重启推流服务**：
+   - 尝试重启推流服务。进入后台管理，找到推流服务的选项并重启。
+
+3. **换区尝试**：
+   - 如果当前使用的是非新加坡设备，请尝试更换到使用新加坡区的设备。
+
+4. **清理缓存并重启应用**：
+   - 清理后台并重新打开应用，也可以尝试清理应用缓存。
+   - 如果Ug的应用存在，请参照设备的具体情况，尝试不更换设备来解决问题（具体根据右侧提到的设备情况操作）。
+
+5. **登记Bug表**：
+   - 如果上述步骤仍未解决问题，并确认设备没有离线，您可能需要登记Bug表让技术人员介入修复，并且为您更换新设备。
+
+6. **联系技术支持**：
+   - 如果白屏问题依旧存在，请您联系技术支持团队，并提供任何相关的错误截图、日志信息以及您已经尝试过的解决方法，以帮助技术人员更快地定位和解决问题。
+
+请依次尝试上述建议，希望可以帮助您解决推流白屏的问题。如果处理过程中有任何疑问，也欢迎您随时进一步咨询。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 云手机是什么
+------------------------------------ 云手机指的是一种虚拟的手机设备，它通过在云端的服务器上运行手机操作系统和应用，然后将界面和操作结果通过网络传输到用户端的设备上展示。用户可以通过云手机客户端或者网页端访问和控制这个虚拟的手机，进行各种操作，就像使用一台实体手机一样。
+
+云手机的主要优势包括：
+1. 无需购买昂贵的实体设备，只需支付云服务费用即可使用。
+2. 可以在任意设备上访问自己的云手机，实现数据和应用的高效同步。
+3. 方便进行大规模的自动化操作，如多开、游戏挂机、应用测试等。
+4. 节省本地资源，由远程服务提供硬件支持，本地设备性能要求较低。
+
+云手机可以应用于游戏娱乐、软件测试、远程工作、教育等多个领域，并为远程操作、跨平台使用等需求提供便利。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 请给我一个商业计划书的框架，提纲10条以内
+------------------------------------ 127.0.0.1 - - [05/Mar/2024 04:28:40] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 04:32:50] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:10:21] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:11:46] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:12:20] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:14:00] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+商业计划书的框架通常包含以下几个要素，以下是10条提纲的简要说明：
+
+1. **概述（Executive Summary）**：
+   - 简明扼要地总结商业计划的核心要点。
+   - 包括公司定位、产品/服务描述、主要目标、财务概览。
+
+2. **公司描述（Company Description）**：
+   - 描述公司的历史、法律形式、位置、创始团队和愿景。
+   - 明确公司的使命声明和目标。
+
+3. **市场分析（Market Analysis）**：
+   - 研究目标市场的需求、规模和增长潜力。
+   - 分析竞争对手和行业趋势。
+
+4. **组织与管理（Organization and Management）**：
+   - 描述公司的组织结构和管理团队。
+   - 包括组织架构图和关键人员的简历。
+
+5. **产品或服务（Products/Services）**：
+   - 详细描述公司提供的产品或服务。
+   - 包括产品特点、开发阶段、知识产权保护等信息。
+
+6. **营销与销售策略（Marketing and Sales Strategy）**：
+   - 概述营销计划、推广活动和销售方法。
+   - 明确定价策略、销售渠道和客户关系管理。
+
+7. **资金需求（Funding Request）**：
+   - 如果需要资金，详细说明所需资金的数额和用途。
+   - 阐述未来的财务计划及对投资者的回报预期。
+
+8. **财务预测（Financial Projections）**：
+   - 提供收入预测、现金流预测、损益表和资产负债表。
+   - 包括财务假设和风险分析。
+
+9. **附录（Appendix）**：
+   - 提供支撑性文档和额外参考资料。
+   - 如产品图片、营销材料、详尽的财务数据等。
+
+10. **风险分析（Risk Analysis）**：
+   - 识别潜在风险和面临的挑战。
+   - 描述风险缓解措施和应对策略。
+
+上述提纲可以根据实际商业计划的需求和行业特点来调整和优化以符合特定情况。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 111
+------------------------------------ 您好！看起来您可能只是在测试通讯是否正常，或者有什么其他问题需要帮助吗？如果有任何疑问或者需要助手做些什么，请告诉我。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ Hello，云手机内存多大
+------------------------------------ 云手机的运行内存大小可能会因不同的服务提供商或设备型号而有所不同。由于提供的信息中没有明确指出云手机的具体型号或配置，我无法给出确切的运行内存大小。
+
+如果您已经有了一个具体的云手机服务或正在考虑使用一个，请咨询相应的服务提供商以获取云手机的确切运行内存大小。如果您是当前用户并且已经购买了服务，您也可以查看购买时提供的详细规格或联系客服以了解更多信息。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 把下面翻译成越南语：给你换了一台新的设备了
+------------------------------------ Chúng tôi đã thay thế một thiết bị mới cho bạn.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 把下面翻译成越南语
+
+你检查一下
+------------------------------------ Bạn hãy kiểm tra lại xem sao.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ đề xuất bất kỳ chức năng nào bạn có thể nghĩ cho trái blox chưa được thêm vào
+tôi đã hoàn thành một số chức năng rất tốt sẽ được bổ sung khi tôi cập nhật
+Ra là v
+w-azure auto Bounty Premium sẽ không tấn công lẫn nhau (quên thêm cái này) + người dùng miễn phí sẽ không tấn công bạn (tôi chưa kiểm tra và thấy nó không hoạt động nhưng khi tôi cập nhật thì sẽ như vậy)
+Hm
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 翻译成中文
+------------------------------------ Xin chào! Có gì mình có thể giúp bạn không?
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ đề xuất bất kỳ chức năng nào bạn có thể nghĩ cho trái blox chưa được thêm vào
+tôi đã hoàn thành một số chức năng rất tốt sẽ được bổ sung khi tôi cập nhật
+Ra là v
+w-azure auto Bounty Premium sẽ không tấn công lẫn nhau (quên thêm cái này) + người dùng miễn phí sẽ không tấn công bạn (tôi chưa kiểm tra và thấy nó không hoạt động nhưng khi tôi cập nhật thì sẽ như vậy)
+
+翻译成中文
+------------------------------------ 127.0.0.1 - - [05/Mar/2024 06:14:19] "POST /chat HTTP/1.1" 200 -
+127.0.0.1 - - [05/Mar/2024 06:14:23] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:30:15] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:35:23] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:36:03] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:38:28] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:40:19] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:41:10] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:42:18] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:43:04] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+Bạn có thể thêm các chức năng sau vào trái Blox:
+
+1. Chế độ Hợp tác: Cho phép người chơi cùng nhau thực hiện nhiệm vụ hoặc chống lại kẻ thù mạnh mẽ trong một môi trường chơi game an toàn, nơi không có cuộc tấn công nào từ người dùng khác.
+
+2. Cải tiến Hệ thống Nhiệm vụ: Thêm nhiệm vụ và thử thách mới với phần thưởng hấp dẫn để tăng tính hấp dẫn và thử thách cho trò chơi.
+
+3. Thêm chức năng Tương tác Cộng đồng: Cung cấp nền tảng trò chuyện hoặc diễn đàn cho phép cộng đồng người chơi tương tác, trao đổi kinh nghiệm và xây dựng quan hệ bạn bè trong trò chơi.
+
+4. Hệ thống Phát Hiện và Phòng Chống Gian Lận: Những công cụ và chức năng nâng cao để phát hiện và ngăn chặn hành vi gian lận, đảm bảo sự công bằng và môi trường chơi game lành mạnh cho tất cả người chơi.
+
+5. Tùy Chỉnh Nhân vật: Cung cấp nhiều lựa chọn tùy chỉnh cho người chơi để họ có thể tạo ra nhân vật theo sở thích riêng của mình, từ trang phục cho đến vũ khí.
+
+6. Hệ thống Thành tựu: Triển khai hệ thống thành tựu với các mục tiêu khác nhau để người chơi thực hiện, tăng thêm động lực để họ tiếp tục chơi và khám phá trò chơi.
+
+7. Phần Thưởng Đăng Nhập Hàng Ngày: Kích thích người chơi đăng nhập thường xuyên với hệ thống phần thưởng cho những lần đăng nhập hàng ngày.
+
+Chú ý: Các chức năng mới cần được kiểm tra kỹ càng trước khi triển khai để chắc chắn không ảnh hưởng đến cân bằng của trò chơi và mang lại trải nghiệm tốt nhất cho người chơi.
+ Query successful
+------------------------------------ 提出一些你能想到的blox果实没有加入的新功能
+我已经完成了一些非常好的功能，在我更新的时候会被添加进去
+事实上是
+W-azure auto Bounty Premium将不会互相攻击（忘记加这个了）+免费用户也不会攻击你（我还没有测试过它不工作，但当我更新的时候应该会是这样）
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 云手机的配置是什么
+------------------------------------ 根据您提供的背景信息，详细的云手机配置未被提及。通常云手机的配置包括CPU、内存、存储空间和操作系统等。OgPhone云手机应该也有类似的配置。如果您需要具体的配置信息，建议联系供应商或访问他们的官方网站以获得最准确的配置详情。如果您已经购买了某个云手机服务，可能会在购买过程中或服务的控制面板中找到配置信息。如果有进一步的上下文信息或者要求，请提供，以便我能给出更准确的答复。
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ OgPhone云手机的配置是什么
+------------------------------------ 关于OgPhone云手机的具体配置信息，在上述提供的资料中没有详细说明。通常云手机的配置包括CPU、内存、存储空间、操作系统等基础信息，但对于OgPhone云手机的特定配置，我无法提供确切的信息。为了获取OgPhone云手机的精确配置细节，建议您联系OgPhone的客服支持或访问OgPhone的官方网站，那里应能提供您所需的详细配置信息。如果您有关于使用OgPhone云手机的其他问题，可以提问，我会尽力帮助解答。
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 把下面翻译成越南语
+
+我给他送了一天时间了。
+------------------------------------ Tôi đã cho anh ấy một ngày thời gian.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ What do you mean, do you mean that you can discount the code to buy UGPHONE? Or the invitation code?
+
+翻译成越南语
+------------------------------------ Ý bạn là bạn có thể áp dụng mã giảm giá để mua UGPHONE? Hay là mã mời?
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ có thể mua ugphone gvip :<
+翻译成中文
+------------------------------------ 可以购买UGPhone的GVIP会员。 :)
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你可以用Khanh的邀请链接注册一个并购买，7天送一天，30天送3天。
+
+上面翻译成越南语
+------------------------------------ Bạn có thể đăng ký và mua một tài khoản sử dụng liên kết giới thiệu của Khanh, được tặng 1 ngày khi mua gói 7 ngày và tặng 3 ngày khi mua gói 30 ngày.
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 我们目前还没有折扣码
+
+上面翻译成越南语
+------------------------------------ Hiện tại chúng tôi không có mã giảm giá.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 最优惠的购买方式就是通过合作商的代码购买。
+
+上面翻译成越南语。
+------------------------------------ Phương thức mua hàng ưu đãi nhất là thông qua mã của đối tác hợp tác.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  127.0.0.1 - - [05/Mar/2024 06:44:38] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:46:05] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:50:01] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:52:52] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 06:53:54] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:09:30] "POST /chat HTTP/1.1" 200 -
+87.120.84.133 - - [05/Mar/2024 07:20:19] "[33mCONNECT 185.65.245.140:7227 HTTP/1.1[0m" 404 -
+123.254.110.97 - - [05/Mar/2024 07:27:11] "[33mGET /status HTTP/1.1[0m" 404 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:29:03] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:30:20] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:32:16] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:33:20] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:34:49] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:38:24] "POST /chat HTTP/1.1" 200 -
+Number of requested results 20 is greater than number of elements in index 1, updating n_results = 1
+127.0.0.1 - - [05/Mar/2024 07:43:30] "POST /chat HTTP/1.1" 200 -
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/Vector_Chat_Demo.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/Vector_Chat_Demo.py', reloading
+/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你是忘记了谷歌账号的密码吗？
+
+上面翻译成越南语。
+------------------------------------ Bạn có quên mật khẩu tài khoản Google của bạn không?
+
+Time: 2024-03-05 06:45:00
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你能看见这个页面吗？我会每周在这里发布排行榜和奖励。
+
+上面翻译成越南语。
+------------------------------------ Bạn có thể nhìn thấy trang này không? Tôi sẽ đăng bảng xếp hạng và phần thưởng hàng tuần ở đây.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你们有新的谷歌账号吗？
+
+翻译成越南语。
+------------------------------------ Các bạn có tài khoản Google mới không?
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你的朋友想要购买30天gvip，可以通过你的邀请码注册，我可以给他送3天，但是他没有谷歌账号
+
+翻译成越南语
+------------------------------------ Bạn của bạn muốn mua gói gvip 30 ngày, có thể đăng ký qua mã giới thiệu của bạn, tôi có thể tặng anh ấy 3 ngày, nhưng anh ấy không có tài khoản Google.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 你们有新的可以帮助一下他。
+
+翻译成越南语
+------------------------------------ Bạn có thể hỗ trợ anh ấy với một tài khoản mới không?
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 这个人和Khanh是什么关系？
+
+翻译成越南语
+------------------------------------ Người này và Khanh có quan hệ gì?
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ mizuhara要不你也跟Khanh一起成为一个tiktoker吧，我可以给你送设备。
+
+翻译成越南语
+------------------------------------ Mizuhara, bạn cũng nên trở thành một tiktoker như Khanh đi, tôi có thể gửi cho bạn thiết bị.
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ mizuhara，有考虑像Khanh一样成为Tiktoker吗？你可以跟他们一样加入排行榜，每周可获得设备。
+
+翻译成越南语
+------------------------------------ Mizuhara, bạn có tính toán trở thành Tiktoker giống như Khanh không? Bạn có thể tham gia bảng xếp hạng như họ và có thể nhận được thiết bị hàng tuần.
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 他经常发视频吗？
+
+翻译成越南语
+------------------------------------ Anh ấy thường xuyên đăng video không?
+
+Time: 2024-03-05 07:33:40
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 是不是忙着谈恋爱？
+
+翻译成越南语
+------------------------------------ Anh ấy có phải đang bận tâm sự tình cảm không?
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 我还以为他天天和女朋友约会，没时间做视频。
+
+翻译成越南语
+------------------------------------ Tôi cứ nghĩ anh ấy hẹn hò với bạn gái mỗi ngày nên không có thời gian làm video.
+ Query successful
+ Query successful
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 好吧，没事。
+
+翻译成越南语
+------------------------------------ Vâng, không có gì.
+ Query successful
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog/.vectordb
+从本地向量加载数据...
+1
+向量数据库持久化地址:  /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src/.vectordb
+从本地向量加载数据...
+29
+------------------------------------ 哈哈，你们不要吵架。
+
+翻译成越南语
+------------------------------------ Đừng cãi nhau nữa các bạn ạ.
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 08:55:03.066 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 08:55:03.070 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 08:55:12.295 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 08:55:12.298 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+ * Debugger is active!
+ * Debugger PIN: 438-589-041
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py', reloading
+ * Detected change in '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py', reloading
+ Query successful
+ Query successful
+ * Restarting with watchdog (inotify)
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-05 08:55:35.131 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-05 08:55:35.135 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 15, in <module>
+    from utils import AI_Response_API  # 确保这里是你的 MY_SQL_API 类
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 31, in <module>
+    from langchain_api import *
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_api.py", line 1, in <module>
+    from langchain_agent.function import *
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 227, in <module>
+    class Vect_Agent:
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 342, in Vect_Agent
+    redis_memory:Redis_Create,
+                 ^^^^^^^^^^^^
+NameError: name 'Redis_Create' is not defined

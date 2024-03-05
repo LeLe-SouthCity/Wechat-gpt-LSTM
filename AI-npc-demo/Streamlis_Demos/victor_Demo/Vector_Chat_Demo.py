@@ -32,8 +32,7 @@ if utils_path not in sys.path:
 from gpt_api import *  
 
 
-# 配置你的 OpenAI 和 MySQL 连接信息
-OPENAI_API_KEY = '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'
+# 和 MySQL 连接信息
 MYSQL_HOST = "localhost"  # 或者是远程服务器的IP地址/域名
 MYSQL_USER = "lele"  # 你的 MySQL 用户名
 MYSQL_PASSWORD = "Ogcloud123"  # 你的 MySQL 密码
