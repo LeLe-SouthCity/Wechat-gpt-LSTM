@@ -1,4 +1,11 @@
 # 目前共有3个分支
+main(Word_game代码)
+
+intertest（dalle3 sd 一部分内部测试代码demo）
+
+vecotor（向量数据库代码）
+
+googleapi（语音测试代码demo）
 
 # AI-npc-demo-streamlit
 
@@ -72,7 +79,7 @@ streamlit run your_script.py --server.address 0.0.0.0 --server.port 8501
 
 
 
-# nginx 配置（如果需要）
+## nginx 下载
 
 1、首先，更新你的包索引：
 ```bash
