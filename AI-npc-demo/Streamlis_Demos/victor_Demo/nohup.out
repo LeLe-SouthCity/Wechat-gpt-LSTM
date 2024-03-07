@@ -3464,3 +3464,39 @@ Traceback (most recent call last):
     redis_memory:Redis_Create,
                  ^^^^^^^^^^^^
 NameError: name 'Redis_Create' is not defined
+/home/ubuntu/miniconda3/lib/python3.11/site-packages/langchain/vectorstores/__init__.py:35: LangChainDeprecationWarning: Importing vector stores from langchain is deprecated. Importing from langchain will no longer be supported as of langchain==0.2.0. Please import from langchain-community instead:
+
+`from langchain_community.vectorstores import Chroma`.
+
+To install langchain-community run `pip install -U langchain-community`.
+  warnings.warn(
+2024-03-06 13:38:30.535 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+2024-03-06 13:38:30.539 WARNING streamlit.runtime.caching.cache_data_api: No runtime found, using MemoryCacheStorageManager
+Traceback (most recent call last):
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py", line 15, in <module>
+    from utils import AI_Response_API  # 确保这里是你的 MY_SQL_API 类
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/Utils/utils.py", line 31, in <module>
+    from langchain_api import *
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_api.py", line 1, in <module>
+    from langchain_agent.function import *
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 227, in <module>
+    class Vect_Agent:
+  File "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Code/langchain_agent/function.py", line 342, in Vect_Agent
+    redis_memory:Redis_Create,
+                 ^^^^^^^^^^^^
+NameError: name 'Redis_Create' is not defined
+node:internal/modules/cjs/loader:1152
+  throw err;
+  ^
+
+Error: Cannot find module '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/app.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1149:15)
+    at Module._load (node:internal/modules/cjs/loader:990:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v21.6.2

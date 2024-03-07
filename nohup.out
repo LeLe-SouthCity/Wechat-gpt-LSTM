@@ -1,0 +1,33 @@
+David是谁？你是谁？
+{ ai_response: '运营商管理员账号为公司统一分配账号，一般命名规则为员工编号。' }
+david是谁
+{
+  ai_response: '公司联合创始人兼COO是黄庭源先生。主管公司ICT和电商业务线，管理产品市场部、业务运营部、售前售后部、电商部等。杀伐果断励精图治，天下布武。'
+}
+基哥是？
+{
+  ai_response: '公司产品经理何隆基(基哥)。主管公司产品部、运营部与发行部。同时是跨境电商与出海领域资深的从业人士，擅长产品规划，推广运营与品牌营销，带领下的部门业绩斐然。'
+}
+杨乐是？
+{ ai_response: '公司产品经理，主管Og设备产品线和软件产品线，是一位性格爽朗的帅哥。' }
+世杰是？
+{ ai_response: '公司产品经理。' }
+云手机白屏
+{ ai_response: '1.优化本地网络，更换别的网络（例运营商网络）进行测试\n2.更换设备重新模拟\n3.找技术排查' }
+too many attempts
+{
+  ai_response: 'The user tried too many times, and the recognition failed'
+}
+tk风控
+{ ai_response: '合适的头像，不要太生猛' }
+Ryan是？
+{
+  ai_response: '公司联合创始人兼COO是Ryan.Y光郄龙。主管公司ICT和互联网分级滚球比分数据运萬事务中心，管理财务HR，协助办公自动化等业务。王光龄跟李彦宏是同学，国家公务员科举出身，堪比一线演员业务高管，经典90后。'
+}
+你好
+{ ai_response: '有什么可以帮到你的吗？' }
+access token expired , refresh...
+老板是谁
+{
+  ai_response: '公司创始人兼CEO是戴煜David。主管公司产品技术部、财务部、商务部和HR部门。玉树临风英明神武，兼爱非攻。'
+}

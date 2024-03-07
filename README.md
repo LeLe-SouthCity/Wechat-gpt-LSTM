@@ -68,8 +68,10 @@ pip install -r requirements.txt (如果不行就一个一个运行)
 pip install nodejs (版本大于1.18)
 npm install 
 
-
-nohup python /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py &
+#(LSTM + 微调gpt)
+nohup python /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py & 
+#(微调gpt)
+nohup python /home/ubuntu/WeWork-OpenAI-Node/flaskopenaiog.py & 
 nohup node app.js &
 ```
 

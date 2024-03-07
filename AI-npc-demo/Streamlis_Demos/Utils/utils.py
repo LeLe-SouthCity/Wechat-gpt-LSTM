@@ -181,7 +181,8 @@ class AI_Response_API():
         """
         response = OPenaiClient.chat.completions.create(
                         # model="gpt-3.5-turbo-16k",
-                        model="gpt-4-1106-preview",
+                        # model="gpt-4-1106-preview",
+                        model="ft:gpt-3.5-turbo-1106:ogcloudgpt::8zg4QWKu",
                         messages=[
                             {"role": "system", "content":systemset },
                             {"role": "user", "content": prompt}
