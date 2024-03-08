@@ -182,6 +182,8 @@ class AI_Response_API():
         response = OPenaiClient.chat.completions.create(
                         # model="gpt-3.5-turbo-16k",
                         # model="gpt-4-1106-preview",
+                        temperature=0.2,
+                        top_p=0.2,
                         model="ft:gpt-3.5-turbo-1106:ogcloudgpt::8zg4QWKu",
                         messages=[
                             {"role": "system", "content":systemset },
@@ -193,12 +195,14 @@ class AI_Response_API():
         return response 
 
 
-    def stream_get_response(
+    def get_response(
         self,
         systemset:str,
-        prompt:str
+        prompt:str,
+        stream = True,
     ):
         """
+        可以选择是否
         逐字显示
         流式显示回复
 
@@ -209,15 +213,18 @@ class AI_Response_API():
         Returns:
             (str): 返回一个str类型的字符串
         """
-        # 获取 GPT 的流式回复
-        message_placeholder = st.empty()
-        full_response = ""
-        for response in self.__get_stream_response(systemset=systemset,prompt=prompt):
-            full_response += (response.choices[0].delta.content or "")
-            message_placeholder.markdown(full_response + "▌")
-        #传送给openai后清空
-        message_placeholder.markdown(full_response)
-        return full_response
+        if stream:
+            # 获取 GPT 的流式回复
+            message_placeholder = st.empty()
+            full_response = ""
+            for response in self.__get_stream_response(systemset=systemset,prompt=prompt,stream=stream):
+                full_response += (response.choices[0].delta.content or "")
+                message_placeholder.markdown(full_response + "▌")
+            #传送给openai后清空
+            message_placeholder.markdown(full_response)
+            return full_response
+        else:
+            return self.__get_stream_response(systemset=systemset,prompt=prompt,stream=stream).choices[0].message.content
     
     def __get_sum_info(
         self,

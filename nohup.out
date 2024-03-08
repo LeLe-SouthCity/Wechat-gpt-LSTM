@@ -31,3 +31,722 @@ access token expired , refresh...
 {
   ai_response: '公司创始人兼CEO是戴煜David。主管公司产品技术部、财务部、商务部和HR部门。玉树临风英明神武，兼爱非攻。'
 }
+你是谁
+{ ai_response: '公司引导头像修改成Og品牌新手机示例图案，示范方法参考官方出品视频步骤编辑' }
+我是谁
+{ ai_response: '你是优质雇主。感谢您一直以来对Og的支持与信赖，我们会继续努力，为你和为Og成长进步。' }
+og奶什么
+{ ai_response: '根据图片名称排序，编辑每张图片信息中的标题与生成方式属性即可完成对应属性的修改任务。' }
+卖什么
+{
+  ai_response: '公司产品云手机、云电脑，提供一站式终端应用解决方案，以及同时面向游戏玩家，推出免手机一键G网游云手机解决方案。'
+}
+keith是谁
+{
+  ai_response: '公司产品经理何隆基keith，主管公司产品方向与研发方案，擅长结合商业认知为技术产品赋能，在AI与大数据行业有多年的工作经验和丰富的知识结构。同时是公司硅谷团队的联合主管，管理产品与技术。'
+}
+roblox 268
+{ ai_response: '根据设备性能配置不同，游戏内的画质和帧数会有所变化，可以告知用户合适的配置参考值' }
+277错误
+{
+  ai_response: '引导用户根据具体情况进行排查：\n1、确认本地文件不损坏\n2、更换设备或网络进行尝试\n3、等待一段时间后刷新重试'
+}
+268错误
+{ ai_response: '引导用户根据自身设备情况进行适配推荐。' }
+网络卡顿
+{ ai_response: '给用户清理下手机内存' }
+Ugphone&Facebook服务器主要是关于Facebook宣传的，包括Blox Friut和Pet 99等游戏
+
+翻译成越南语
+{
+  ai_response: 'UgPhone服务器主要是 để quảng cáo Facebook, bao gồm cả các trò chơi Blox Friut và Pet 99'
+}
+Ryan是？
+{ ai_response: '公司首席执行官兼董事长。业界资深游戏人，曾是LOL知名主播，现为公司高管。' }
+Ryan是？
+{ ai_response: '公司首席执行官兼董事长。业界资深游戏人，曾是LOL知名主播，现为公司高管。' }
+og的老板是？
+{ ai_response: '公司创始人兼CEO是戴煜David。主管公司产品技术部、财务部、商务部 和HR部分。' }
+og有哪些部门？
+{ ai_response: '公司主要由产品技术部、财务部、HR部和商务部构成。' }
+你对og了解哪些？
+{
+  ai_response: 'Og是OgCloud的简称，是一家国家高新科技出海领军企业，以环球骨干网络和ARM云计算为支撑，专注构建AI互娱科技平台。业务覆盖游戏、云计算、国际网络等多个领域。市场遍及中国、东南亚、美洲、欧洲等地。展望未来，Og将持续致力于科技全球化，为国家知识产权和科技出海贡献。'
+}
+Ryan
+{
+  ai_response: '1、当对话的历史记录与额外提示发生冲突时,以对话的历史记录的信息为准\n2、在列表中找到对应问题的回答，参考回答'
+}
+ryan是谁？
+{ ai_response: '根据设置的时区来定的' }
+Ryan是谁？
+{ ai_response: '根据设置的时区来定的' }
+Ryan是谁？
+{ ai_response: '根据设置的时区来定的' }
+ryan是董事长
+{ ai_response: '错' }
+[汗]
+{ ai_response: '记录补充完毕' }
+[便便]
+{ ai_response: '记录补充完毕' }
+Error handling message object: TypeError: Cannot read properties of undefined (reading '0')
+    at file:///home/ubuntu/WeWork-OpenAI-Node/app.js:38:41
+目前运营商或者移动相关的资料有哪些
+{
+  ai_response: '1.关闭vpn之后，要关闭浏览器刷新下再重新打开浏览器登录账号使用云 手机 先恢复出厂设置然后在设备大师那里修改机型，选择对应国家节点的sim 卡信息，再到云手机设置里面设置时区和语言即完成刷机\n' +
+    '\n' +
+    '联系售后解决\n' +
+    '\n' +
+    '可以用真机打开云手机横屏使用\n' +
+    '\n' +
+    '可以安装火狐浏览器根据教程调\n' +
+    '\n' +
+    '查看云手机IP可以在云手机浏览器查询ipinfo.io即可看到云手机的IP\n' +
+    '\n' +
+    '需要用自己代理的话，需要联系管理员解绑IP 联系管理员后台解绑IP 建议客户更换稳定IP\n' +
+    '\n' +
+    '要改时间直接修改对应时区就行\n' +
+    '\n' +
+    '等到管理员后台配置开通后，刷新就可以看到'
+}
+OGIC产品资料
+{ ai_response: '暂时没有，之后再补充' }
+[汗]
+{ ai_response: '找到对应问题就修改就行' }
+keith是谁
+{
+  ai_response: '公司产品经理何隆基Keith(基夫哥)。主管公司产品部、运营部与发行部。 同时是跨境电商产品矩阵、OgPhone、UgPhone、UgGame等产品的负\n' +
+    '            责人，擅长AIGC领域，游戏发行领域，产品生命周期管理，产品方案制作。'
+}
+已经给他的设备增加了一天时间，mizuhara
+
+上面翻译成越南语
+{ ai_response: '已经给他的设备增加了一天时间，mizuhara' }
+hi
+1
+{ ai_response: '注册tk出现too many attemps' }
+帮我把他翻译成英语：4．契約の解除
+4.1 いずれの当事者も、 本契約を任意に終了する権利を有しない。ただし、 いずれの 当事者も、 交渉を行う上、本契約の終了を発意する権利を有する。
+4.2 法令、国家政策の調整、その他の不可抗力により本契約を履行できない場合、本 契約が終了とする。
+4.3 ①乙が甲に重大な悪影響を及ぼす行為をした場合(悪質な政治的発言、社会道徳 違反など)、②乙が提供するプロモーションサービスは、関連する国際法または現地法お よび規制 (広告法、 知的財産法などを含むがこれらに限定されない) に違反した場合、 ③乙が提供するプロモーション サービスは、他者の法的権利 (肖像権、名誉権などを含 みますがこれらに限定されません) を侵害した場合、甲は本契約を終了する権利を有す る。
+{
+  ai_response: '4. Termination of Contract\n' +
+    '4.1 Neither party has the right to terminate this Agreement at will. However, each party has the right to negotiate and express the intention to terminate this Agreement.\n' +
+    '4.2 If this Agreement cannot be fulfilled due to laws, adjustments in national policies, or other force majeure, this Agreement shall be terminated.\n' +
+    '4.3 If (1) Party B engages in an act that significantly affects Party A (such as malicious political statements, violations of social morals, etc.), (2) the promotional services provided by Party B violate international laws or local laws and regulations (including but not limited to advertising laws, intellectual property laws, etc.), or (3) the promotional services provided by Party B infringe upon the legal rights of others (including but not limited to portrait rights, honor rights, etc.), Party A has the right to terminate this Agreement.'
+}
+{
+  ai_response: '下面是对话的历史记录\n' +
+    "{'user_input': 'hi', 'gpt_response': '已经给他的设备增加了一天时间，mizuhara', 'timestamp': '2024-03-07 02:52:53'}\n" +
+    '上面是与用户输入相关的额外提示\n' +
+    "{'user_input': '你好', 'gpt_response': '你好！有什么可以帮助你的吗？', 'timestamp': '2024-03-04 01:13:05'}\n" +
+    '下面是额外的资料\n' +
+    '（专业路线：初级-中级-高级-资深，管理路线：储备干部-初级管理-中级 Og会有成熟的培训体系：新人训练营、业务专业培训、部门内部培训、管 理技能培训、日常赋能培训等，充分保障员工的职业发展。 上班时间：9：30-12：30，14：00-18：30，周末双休，节假日按国家规 定正常放假。 生日会、运动会、读书会、桌游集结、员工旅游、部门聚餐、不间断零⾷ 投喂等等，更有惊喜福利等待你的发现。\n' +
+    '时面向全球游戏玩家与国海外游戏发行发行商与研发商。同时提供2B云游 戏PaaS服务和2C云游戏与AI互娱平台。 公司产品经理何隆基Keith(基夫哥)。主管公司产品部、运营部与发行部。 同时是跨境电商产品矩阵、OgPhone、UgPhone、UgGame等产品的负 责人，擅长AIGC领域，游戏发行领域，产品生命周期管理，产品方案制作 1.优化本地网络，更换别的网络（例：手机热点）进行测试，排查网络因 素。 2.关闭VPN，刷新浏览器 3.更换谷歌浏览器使用 1.切换网络，或提升本地宽带或者连手机热点 2.重启云机，清理应用后台 3.找售后排查 1.需要跟子账号成员说明好哪台设备是哪个成员使用的。 2.找售后同事排查\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    '注册tk出现too many attemps\n' +
+    '\n' +
+    'OgPhone应用 OgPhone应用 OgPhone应用 OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    '无法注册pairs账号 TK播放量很低 购买的谷歌邮箱被封了 注册tk时显示没有资格参与tk 菲律宾的云手机的TK无法点赞关 注 TIKTOK可以做视频的定向推送操 作么？ 注册的TK显示中文 新注册的TK账号在云机上别的账 号上面搜不到 注册的TK账号是私密账号\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    '后面发布的视频0播\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用 OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用 OgPhone应用 OgPhone应用 OgPhone应用 OgPhone应用 OgPhone应用 OgPhone应用 OgPhone应用 OgPhone应用\n' +
+    '\n' +
+    'OgPhone应用\n' +
+    '2、若未开启root，查看或询问用户是否安装外挂/辅助工具，建议用户关 前往工具中心下载auto rotate软件可以解决该问题\n' +
+    '重新进入推流即可恢复 重新进入推流即可恢复 重新进入推流即可恢复 建议用户更换网络尝试打开设备 若仍无法解决 让用户用设备浏览器搜ipinfo截图发送ip地址和该网络的运营商，让技术看 看这个网络情况 目前应该不会有该报错码 暂未知解决方法，遇到需要进行bug表记录。 暂未知解决方法，遇到需要进行bug表记录。\n' +
+    '\n' +
+    '询问用户是否用的分享设备\n' +
+    '\n' +
+    '引导用户切换为Auto，等待网络状态良好后再使用高画质\n' +
+    '\n' +
+    '向用户核查出现的频率和出现的时间段进行bug表记录\n' +
+    '\n' +
+    'UgPhone网络\n' +
+    '\n' +
+    'UgPhone网络\n' +
+    '\n' +
+    'UgPhone网络\n' +
+    '\n' +
+    '延迟不高但是点击或操作后很久 才有响应\n' +
+    '\n' +
+    '无法上网\n' +
+    '\n' +
+    '网速或下载速度慢\n' +
+    '\n' +
+    '可能是设备到服务器的网络有波动\n' +
+    '\n' +
+    '设备与网络断连\n' +
+    '\n' +
+    '该机房带宽跑满了，同时在线用户数多，导致 网速下降。\n' +
+    '日常： ①2个机房中某一机房没有——引导去其他机房领取 ②都没有库存——告知运营，引导用户耐心等待 活动/库存不足期间——每天免费库存领取数量有限，可耐心等待或购买6\n' +
+    '\n' +
+    '需间隔1小时候再尝试登陆'
+}
+你好、
+{ ai_response: '你好！有什么可以帮助你的吗？' }
+access token expired , refresh...
+注册完og账号后无法登录
+{ ai_response: '请再创建一个同样的账号试试' }
+依旧无法登录 
+{ ai_response: '引导TA注册新的账号' }
+你可以做什么
+{ ai_response: '我可以应对售后、提问、陪聊、引导等等场景' }
+access token expired , refresh...
+？
+{ ai_response: '你可以做什么' }
+OGIC怎么卖
+{
+  ai_response: '可以参考这个进行报价\n' +
+    '![](https://uc1b8a0e0d4f3e0f5c4b1d9d3c4d.huayun.bcebos.com/%E5%9B%BE%E7%89%8711.png)'
+}
+ogic报价
+{
+  ai_response: '可以参考这个进行报价\n' +
+    '![](https://uc1b8a0e0d4f3e0f5c4b1d9d3c4d.huayun.bcebos.com/%E5%9B%BE%E7%89%8711.png)'
+}
+售后
+{
+  ai_response: '1.让其关闭连接再重新连接 2.重新下载json文件 3.关闭推流再进行adb连接 4.云手机本身把su替换掉了，adb进去已经是root用户，不存在su，可以 1.修改文件命名重新上传 2.压缩一下文件再上传 3.先去云手机相册查看是否已经上传成功 优化本地网络或更换网络重试 建议一次性不要上传太多个文件，可以10个10个上传 1.转码后再尝试上传了 2.刷新媒体库 云手机里面安装一个excel软件然后把链接复制到excel表格里面再导出来\n' +
+    '\n' +
+    '在云手机内修改输入法，添加中文繁体注音输入法\n' +
+    '\n' +
+    '可以直接在安卓端登录设置高码率推流 在云手机内部设置调高云手机音量 可以通过文件上传功能上传通讯录格式的表格到云手机试试\n' +
+    '\n' +
+    '在云手机桌面从下往上滑动\n' +
+    '日常： ①2个机房中某一机房没有——引导去其他机房领取 ②都没有库存——告知运营，引导用户耐心等待 活动/库存不足期间——每天免费库存领取数量有限，可耐心等待或购买6\n' +
+    '\n' +
+    '需间隔1小时候再尝试登陆\n' +
+    '时面向全球游戏玩家与国海外游戏发行发行商与研发商。同时提供2B云游 戏PaaS服务和2C云游戏与AI互娱平台。 公司产品经理何隆基Keith(基夫哥)。主管公司产品部、运营部与发行部。 同时是跨境电商产品矩阵、OgPhone、UgPhone、UgGame等产品的负 责人，擅长AIGC领域，游戏发行领域，产品生命周期管理，产品方案制作 1.优化本地网络，更换别的网络（例：手机热点）进行测试，排查网络因 素。 2.关闭VPN，刷新浏览器 3.更换谷歌浏览器使用 1.切换网络，或提升本地宽带或者连手机热点 2.重启云机，清理应用后台 3.找售后'
+}
+转账
+{ ai_response: '暂时没有可以提供的账户' }
+林氏木业
+{ ai_response: '转账' }
+美国1台云手机价格
+{ ai_response: '6元/小时' }
+access token expired , refresh...
+今天天气怎么样
+{ ai_response: '我在帮您查询' }
+帮我翻译英文：自动起号主线
+{ ai_response: 'auto create account' }
+Og卖什么产品
+{
+  ai_response: 'UgPhone云手机\nUgGame游戏账号\nUgGame点券\n谷歌套餐\n苹果套餐\n可以根据情况适当展开说明'
+}
+access token expired , refresh...
+天耘科技
+{ ai_response: '天耘科技是Og的全称' }
+何隆基
+{
+  ai_response: '何隆基（Keith）\n' +
+    '公司产品经理，主管公司产品部、运营部与发行部。同时是跨境电商产品矩阵、OgPhone、UgGame等产品的负责人，擅长AIGC领域，游戏发行领域，产品生命周期管理，产品方案制作。'
+}
+戴煜
+{
+  ai_response: '公司创始人兼CEO是戴煜David。主管公司产品技术部、财务部、商务部 和HR部门。玉树临风英明神武，兼爱非攻。'
+}
+云游戏按CPA收费的有哪些
+Error fetching AI response: AxiosError: Request failed with status code 500
+    at settle (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:531:35)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAIChat (file:///home/ubuntu/WeWork-OpenAI-Node/openai.js:9:26) {
+  code: 'ERR_BAD_RESPONSE',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      'User-Agent': 'axios/1.6.7',
+      'Content-Length': '50',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'http://localhost:5000/chat',
+    data: '{"user_input":"云游戏按CPA收费的有哪些"}'
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: false,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: false,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: '50',
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: false,
+    _header: 'POST /chat HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json\r\n' +
+      'User-Agent: axios/1.6.7\r\n' +
+      'Content-Length: 50\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: localhost:5000\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 80,
+      protocol: 'http:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype],
+      freeSockets: [Object: null prototype] {},
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/chat',
+    _ended: true,
+    res: IncomingMessage {
+      _events: [Object],
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      socket: [Socket],
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 500,
+      statusMessage: 'INTERNAL SERVER ERROR',
+      client: [Socket],
+      _consuming: true,
+      _dumped: false,
+      req: [Circular *1],
+      _eventsCount: 4,
+      responseUrl: 'http://localhost:5000/chat',
+      redirects: [],
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 10,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: [Function: emitRequestTimeout],
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: false,
+    host: 'localhost',
+    protocol: 'http:',
+    _redirectable: Writable {
+      _events: [Object],
+      _writableState: [WritableState],
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 50,
+      _requestBodyBuffers: [],
+      _eventsCount: 3,
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'http://localhost:5000/chat',
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(shapeMode)]: false,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kChunkedBuffer)]: [],
+    [Symbol(kChunkedLength)]: 0,
+    [Symbol(kSocket)]: Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'localhost',
+      _closeAfterHandlingError: false,
+      _events: [Object],
+      _readableState: [ReadableState],
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _maxListeners: undefined,
+      _eventsCount: 7,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: null,
+      _server: null,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: [Circular *1],
+      [Symbol(async_id_symbol)]: 6339,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 127109249,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 6338,
+        [Symbol(triggerId)]: 0
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(shapeMode)]: true,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: true,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 60,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0
+    },
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 500,
+    statusText: 'INTERNAL SERVER ERROR',
+    headers: Object [AxiosHeaders] {
+      server: 'Werkzeug/3.0.1 Python/3.11.5',
+      date: 'Fri, 08 Mar 2024 01:04:15 GMT',
+      'content-type': 'text/html; charset=utf-8',
+      'content-length': '20362',
+      connection: 'close'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'post',
+      url: 'http://localhost:5000/chat',
+      data: '{"user_input":"云游戏按CPA收费的有哪些"}'
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: false,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '50',
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: false,
+      _header: 'POST /chat HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'User-Agent: axios/1.6.7\r\n' +
+        'Content-Length: 50\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:5000\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/chat',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Writable],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<!doctype html>\n' +
+      '<html lang=en>\n' +
+      '  <head>\n' +
+      '    <title>mysql.connector.errors.OperationalError: MySQL Connection not available.\n' +
+      ' // Werkzeug Debugger</title>\n' +
+      '    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css">\n' +
+      '    <link rel="shortcut icon"\n' +
+      '        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">\n' +
+      '    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>\n' +
+      '    <script>\n' +
+      '      var CONSOLE_MODE = false,\n' +
+      '          EVALEX = true,\n' +
+      '          EVALEX_TRUSTED = false,\n' +
+      '          SECRET = "ieGQh4JW6JC9RLCtV5Qo";\n' +
+      '    </script>\n' +
+      '  </head>\n' +
+      '  <body style="background-color: #fff">\n' +
+      '    <div class="debugger">\n' +
+      '<h1>OperationalError</h1>\n' +
+      '<div class="detail">\n' +
+      '  <p class="errormsg">mysql.connector.errors.OperationalError: MySQL Connection not available.\n' +
+      '</p>\n' +
+      '</div>\n' +
+      '<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>\n' +
+      '<div class="traceback">\n' +
+      '  <h3></h3>\n' +
+      '  <ul><li><div class="frame" id="frame-139696164617760">\n' +
+      '  <h4>File <cite class="filename">"/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py"</cite>,\n' +
+      '      line <em class="line">1488</em>,\n' +
+      '      in <code class="function">__call__</code></h4>\n' +
+      '  <div class="source library"><pre class="line before"><span class="ws">    </span>) -&gt; cabc.Iterable[bytes]:</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>&#34;&#34;&#34;The WSGI server calls the Flask application object as the</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app`, which can be</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>wrapped to apply middleware.</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>&#34;&#34;&#34;</pre>\n' +
+      '<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)\n' +
+      '<span class="ws">        </span>       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre></div>\n' +
+      '</div>\n' +
+      '\n' +
+      '<li><div class="frame" id="frame-139696162456624">\n' +
+      '  <h4>File <cite class="filename">"/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py"</cite>,\n' +
+      '      line <em class="line">1466</em>,\n' +
+      '      in <code class="function">wsgi_app</code></h4>\n' +
+      '  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>\n' +
+      '<pre class="line before"><span class="ws">                </span>ctx.push()</pre>\n' +
+      '<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>\n' +
+      '<pre class="line before"><span class="ws">                </span>error = e</pre>\n' +
+      '<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)\n' +
+      '<span class="ws">                </span>           ^^^^^^^^^^^^^^^^^^^^^^^^</pre>\n' +
+      '<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>\n' +
+      '<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>\n' +
+      '<pre class="line after"><span class="ws">                </span>raise</pre>\n' +
+      '<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>finally:</pre></div>\n' +
+      '</div>\n' +
+      '\n' +
+      '<li><div class="frame" id="frame-139696162456192">\n' +
+      '  <h4>File <cite class="filename">"/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py"</cite>,\n' +
+      '      line <em class="line">1463</em>,\n' +
+      '      in <code class="function">wsgi_app</code></h4>\n' +
+      '  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>error: BaseException | None = None</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>try:</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>try:</pre>\n' +
+      '<pre class="line before"><span class="ws">                </span>ctx.push()</pre>\n' +
+      '<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()\n' +
+      '<span class="ws">                </span>           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre>\n' +
+      '<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>\n' +
+      '<pre class="line after"><span class="ws">                </span>error = e</pre>\n' +
+      '<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>\n' +
+      '<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>\n' +
+      '<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>\n' +
+      '</div>\n' +
+      '\n' +
+      '<li><div class="frame" id="frame-139696162456336">\n' +
+      '  <h4>File <cite class="filename">"/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py"</cite>,\n' +
+      '      line <em class="line">872</em>,\n' +
+      '      in <code class="function">full_dispatch_request</code></h4>\n' +
+      '  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self, _async_wrapper=self.ensure_sync)</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>if rv is None:</pre>\n' +
+      '<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>\n' +
+      '<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)\n' +
+      '<span class="ws">            </span>     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>\n' +
+      '<pre class="line after"><span class="ws"></span> </pre>\n' +
+      '<pre class="line after"><span class="ws">    </span>def finalize_request(</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>self,</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>rv: ft.ResponseReturnValue | HTTPException,</pre></div>\n' +
+      '</div>\n' +
+      '\n' +
+      '<li><div class="frame" id="frame-139696162456480">\n' +
+      '  <h4>File <cite class="filename">"/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py"</cite>,\n' +
+      '      line <em class="line">870</em>,\n' +
+      '      in <code class="function">full_dispatch_request</code></h4>\n' +
+      '  <div class="source library"><pre class="line before"><span class="ws"></span> </pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>try:</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>request_started.send(self, _async_wrapper=self.ensure_sync)</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>if rv is None:</pre>\n' +
+      '<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()\n' +
+      '<span class="ws">                </span>     ^^^^^^^^^^^^^^^^^^^^^^^</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>\n' +
+      '<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>\n' +
+      '<pre class="line after"><span class="ws"></span> </pre>\n' +
+      '<pre class="line after"><span class="ws">    </span>def finalize_request(</pre></div>\n' +
+      '</div>\n' +
+      '\n' +
+      '<li><div class="frame" id="frame-139696162456768">\n' +
+      '  <h4>File <cite class="filename">"/home/ubuntu/miniconda3/lib/python3.11/site-packages/flask/app.py"</cite>,\n' +
+      '      line <em class="line">855</em>,\n' +
+      '      in <code class="function">dispatch_request</code></h4>\n' +
+      '  <div class="source library"><pre class="line before"><span class="ws">            </span>and req.method == &#34;OPTIONS&#34;</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>):</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>view_args: dict[str, t.Any] = req.view_args  # type: ignore[assignment]</pre>\n' +
+      '<pre class="line current"><span class="ws">        </span>return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]\n' +
+      '<span class="ws">        </span>       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre>\n' +
+      '<pre class="line after"><span class="ws"></span> </pre>\n' +
+      '<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self) -&gt; Response:</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>&#34;&#34;&#34;Dispatches the request and on top of that performs request</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>\n' +
+      '<pre class="line after"><span class="ws">        </span>error handling.</pre></div>\n' +
+      '</div>\n' +
+      '\n' +
+      '<li><div class="frame" id="frame-139696162456912">\n' +
+      '  <h4>File <cite class="filename">"/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py"</cite>,\n' +
+      '      line <em class="line">224</em>,\n' +
+      '      in <code class="function">chat</code></h4>\n' +
+      '  <div class="source "><pre class="line before"><span class="ws">            </span>systemset=total_prompt,</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>prompt=user_input</pre>\n' +
+      '<pre class="line before"><span class="ws">            </span>)</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span>print(&#34;------------------------------------&#34;,str(ai_response))</pre>\n' +
+      '<pre class="line before"><span class="ws">        </span># 保存聊天记录到数据库</pre>\n' +
+      '<pre class="line current"><span class="ws">        </span>save_chat_to_db(user_input, ai_response)\n' +
+      '<span class="ws">        </span>^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</pre>\n' +
+      '<pre class="line after"><span class="ws"></span> </pre>\n' +
+      '<pre class="line after"><span class="ws"></span> </'... 10204 more characters
+  }
+}
+做休闲游戏的客户应该推什么
+{ ai_response: '可以推荐Roblox、Minecraft、Sims这几个游戏' }
+access token expired , refresh...
+做休闲游戏的客户比较适合云游戏的哪种产品
+你好、
+{ ai_response: '可以推荐UgPhone和UgGame' }
+{ ai_response: '你好！有什么可以帮助你的吗？' }

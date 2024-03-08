@@ -305,9 +305,10 @@ def main():
             1、当对话的历史记录与额外提示发生冲突时,以对话的历史记录的信息为准
         """
         # 获取并流式显示AI响应
-        ai_response = ai_res.stream_get_response(
-            systemset=st.session_state['total_prompt'], 
-            prompt=user_input
+        ai_response = ai_res.get_response(
+            systemset=total_prompt, 
+            prompt=user_input,
+            stream=False
             )
         # 处理用户输入和AI响应
         handle_chat(user_input,ai_response)

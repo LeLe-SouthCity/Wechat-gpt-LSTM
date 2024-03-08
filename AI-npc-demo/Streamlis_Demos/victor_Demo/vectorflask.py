@@ -69,7 +69,7 @@ def create_table():
     
     db.execute_query(create_table_query2)
 
-create_table()
+# create_table()
 
 # 保存聊天记录到数据库
 def save_chat_to_db(user_input, gpt_response):
@@ -211,15 +211,14 @@ def chat():
             {str(info)}
             下面是额外的资料
             {info2}
-            你需要根据上面我给出的提示和用户对话，尽可能回答用户问题,
-            务必遵循以下几个规则：
-            1、当对话的历史记录与额外提示发生冲突时,以对话的历史记录的信息为准
+            你需要根据上面我给出的提示和用户对话，尽可能回答用户问题
         """
         # print(total_prompt)
         # 获取并流式显示AI响应
-        ai_response = ai_res.stream_get_response(
+        ai_response = ai_res.get_response(
             systemset=total_prompt, 
-            prompt=user_input
+            prompt=user_input,
+            stream=False
             )
         print("------------------------------------",str(ai_response))
         # 保存聊天记录到数据库
