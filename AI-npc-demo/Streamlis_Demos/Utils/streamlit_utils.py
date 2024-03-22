@@ -3,7 +3,7 @@ import os
 
 
 def select_file_from_folder(
-    folder_path:str, 
+    folder_path:str, ·
     file_types:list=None
     ):
     """

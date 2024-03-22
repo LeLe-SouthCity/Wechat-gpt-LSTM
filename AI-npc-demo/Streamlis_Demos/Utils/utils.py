@@ -184,7 +184,8 @@ class AI_Response_API():
                         # model="gpt-4-1106-preview",
                         temperature=0.2,
                         top_p=0.2,
-                        model="ft:gpt-3.5-turbo-1106:ogcloudgpt::8zg4QWKu",
+                        # model="ft:gpt-3.5-turbo-1106:ogcloudgpt::8zg4QWKu",
+                         model="gpt-3.5-turbo-16k",
                         messages=[
                             {"role": "system", "content":systemset },
                             {"role": "user", "content": prompt}

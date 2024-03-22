@@ -131,20 +131,41 @@ export class Message {
         let msg = this.decrypt(encrypt);
         return msg.xml.Content[0];
     }
-
     async getMsgObj(req) {
-
-        const xmlString = this.decrypt(req.body.xml.Encrypt[0]);
-        const result = await new Promise((resolve, reject) => 
-            parseString(xmlString,(err, res) => {
-                if (err) 
-                    reject(err);
-                else 
-                    resolve(res);
-        }));
-
-        return result.xml;
+        // 检查是否存在加密的消息
+        if (req.body.xml.Encrypt) {
+            // 处理加密的消息
+            const xmlString = this.decrypt(req.body.xml.Encrypt[0]);
+            const result = await new Promise((resolve, reject) => {
+                parseString(xmlString, (err, res) => {
+                    if (err) reject(err);
+                    else resolve(res);
+                });
+            });
+            return result.xml;
+        } else {
+            // 如果消息未加密，直接返回解析后的对象
+            console.log(req.body.xml); // 确保这是你期望的格式
+            return req.body.xml;
+        }
     }
+    
+    // async getMsgObj(req) {
+    //     console.log(req.body); // 输出整个请求体
+    //     if (!req.body.xml || !req.body.xml.Encrypt) {
+    //         throw new Error('Invalid request body or missing Encrypt element');
+    //     }
+    //     const xmlString = this.decrypt(req.body.xml.Encrypt[0]);
+    //     const result = await new Promise((resolve, reject) => 
+    //         parseString(xmlString,(err, res) => {
+    //             if (err) 
+    //                 reject(err);
+    //             else 
+    //                 resolve(res);
+    //     }));
+
+    //     return result.xml;
+    // }
 
     /*response the server url verify*/
     urlSetting(req, res) {
