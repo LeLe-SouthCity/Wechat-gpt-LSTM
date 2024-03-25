@@ -1,6 +1,7 @@
 import cloud from '@lafjs/cloud'
 import { decrypt, getSignature } from '@wecom/crypto'
 import xml2js from 'xml2js'
+
 function genConversationKey(userName) {
   return `${process.env.WXWORK_AGENTID}:${userName}`
 }
@@ -63,10 +64,10 @@ async function sendDifyMessage(message, userName, onMessage) {
 
   try {
     const response = await cloud.fetch({
-      url: 'http://61.244.24.102/v1/chat-messages',
+      url: 'https://api.dify.ai/v1/chat-messages',
       method: 'POST',
       headers: {
-        'Authorization': `Bearer app-QUUb1aNeslCUaPF1zsLynjqr`
+        'Authorization': `Bearer ${process.env.DIFY_APPTOKEN}`
       },
       data: {
         inputs: {},
@@ -190,5 +191,3 @@ export default async function (ctx) {
 
   return { message: true, code: 0 }
 }
-
-export { sendDifyMessage };

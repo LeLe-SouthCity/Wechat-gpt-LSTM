@@ -60,3 +60,565 @@ og的老板
 {
   ai_response: 'Og的创始人兼CEO是戴煜（David），而联合创始人兼COO是黄庭源（Ryan）。他们是Og的主要领导者，负责公司的战略规划和业务发展。'
 }
+你好
+{ ai_response: '你好！有什么可以帮助你的吗？' }
+Ryan是谁
+{ ai_response: 'Ryan是Og的联合创始人兼COO，也就是公司的首席运营官。他负责公司的日常运营和业务发展。' }
+你对我了解多少？
+{
+  ai_response: '作为一个AI助手，我只能根据你在对话中提供的信息来回答你的问题。我没有记忆功能，所以我对你的了解是有限的。如果你有任何特定的问题或需要帮助，我会尽力提供帮助。'
+}
+我叫小王，你知道了吗
+{ ai_response: '是的，我知道你叫小王。有什么我可以帮助你的吗？' }
+你知道我叫什么吗？
+{ ai_response: '是的，我知道你叫小王。有什么我可以帮助你的吗？' }
+Error handling message object: TypeError: Cannot read properties of undefined (reading '0')
+    at file:///home/ubuntu/WeWork-OpenAI-Node/app.js:38:41
+Error handling message object: TypeError: Cannot read properties of undefined (reading '0')
+    at file:///home/ubuntu/WeWork-OpenAI-Node/app.js:38:41
+Error handling message object: TypeError: Cannot read properties of undefined (reading '0')
+    at file:///home/ubuntu/WeWork-OpenAI-Node/app.js:38:41
+(node:19177) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server Running on Port:6060
+TOKEN: VBLxs_VGgr8vFuVm7ZlQUJvKe_hi5mRx6tLbKdyi4ArkWcBHLpp2KR9Eh5BbXjKrIFthTaVf3VSLlriaLs1AyAyX6ywimoJTxYPu-2-gsmkdSCBJ_gpAKCXmO81EWkkeyh6xcYhhpBkqCnNBg-42Hvq1zXRS2EcBFJNdmK5otW7Y9TbQ9Og7gzDXVnKK9D7DbsPrrCEOqk7oeuuNm6ks3w
+你好
+Error fetching AI response: AxiosError: connect ECONNREFUSED 127.0.0.1:5000
+    at AxiosError.from (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/adapters/http.js:610:25)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/home/ubuntu/WeWork-OpenAI-Node/node_modules/follow-redirects/index.js:38:24)
+    at ClientRequest.emit (node:events:519:28)
+    at Socket.socketErrorListener (node:_http_client:492:9)
+    at Socket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAIChat (file:///home/ubuntu/WeWork-OpenAI-Node/openai.js:9:26) {
+  port: 5000,
+  address: '127.0.0.1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      'User-Agent': 'axios/1.6.7',
+      'Content-Length': '23',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'http://localhost:5000/chat',
+    data: '{"user_input":"你好"}'
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Function: handleRequestSocket]
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/chat',
+      method: 'POST',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '5000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/chat'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 23,
+    _requestBodyBuffers: [ [Object] ],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '23',
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      _closed: false,
+      _header: 'POST /chat HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'User-Agent: axios/1.6.7\r\n' +
+        'Content-Length: 23\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:5000\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/chat',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:5000/chat',
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 127.0.0.1:5000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1602:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5000
+  }
+}
+(node:19362) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server Running on Port:6060
+TOKEN: VBLxs_VGgr8vFuVm7ZlQUJvKe_hi5mRx6tLbKdyi4ArkWcBHLpp2KR9Eh5BbXjKrIFthTaVf3VSLlriaLs1AyAyX6ywimoJTxYPu-2-gsmkdSCBJ_gpAKCXmO81EWkkeyh6xcYhhpBkqCnNBg-42Hvq1zXRS2EcBFJNdmK5otW7Y9TbQ9Og7gzDXVnKK9D7DbsPrrCEOqk7oeuuNm6ks3w
+你好
+Error fetching AI response: AxiosError: connect ECONNREFUSED 127.0.0.1:5000
+    at AxiosError.from (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/adapters/http.js:610:25)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/home/ubuntu/WeWork-OpenAI-Node/node_modules/follow-redirects/index.js:38:24)
+    at ClientRequest.emit (node:events:519:28)
+    at Socket.socketErrorListener (node:_http_client:492:9)
+    at Socket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAIChat (file:///home/ubuntu/WeWork-OpenAI-Node/openai.js:9:26) {
+  port: 5000,
+  address: '127.0.0.1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      'User-Agent': 'axios/1.6.7',
+      'Content-Length': '23',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'http://localhost:5000/chat',
+    data: '{"user_input":"你好"}'
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Function: handleRequestSocket]
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/chat',
+      method: 'POST',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '5000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/chat'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 23,
+    _requestBodyBuffers: [ [Object] ],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '23',
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      _closed: false,
+      _header: 'POST /chat HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'User-Agent: axios/1.6.7\r\n' +
+        'Content-Length: 23\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:5000\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/chat',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:5000/chat',
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 127.0.0.1:5000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1602:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5000
+  }
+}
+你好
+Error fetching AI response: AxiosError: connect ECONNREFUSED 127.0.0.1:5000
+    at AxiosError.from (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/AxiosError.js:89:14)
+    at RedirectableRequest.handleRequestError (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/adapters/http.js:610:25)
+    at RedirectableRequest.emit (node:events:519:28)
+    at eventHandlers.<computed> (/home/ubuntu/WeWork-OpenAI-Node/node_modules/follow-redirects/index.js:38:24)
+    at ClientRequest.emit (node:events:519:28)
+    at Socket.socketErrorListener (node:_http_client:492:9)
+    at Socket.emit (node:events:519:28)
+    at emitErrorNT (node:internal/streams/destroy:169:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:128:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///home/ubuntu/WeWork-OpenAI-Node/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async getAIChat (file:///home/ubuntu/WeWork-OpenAI-Node/openai.js:9:26) {
+  port: 5000,
+  address: '127.0.0.1',
+  syscall: 'connect',
+  code: 'ECONNREFUSED',
+  errno: -111,
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      'User-Agent': 'axios/1.6.7',
+      'Content-Length': '23',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'http://localhost:5000/chat',
+    data: '{"user_input":"你好"}'
+  },
+  request: <ref *1> Writable {
+    _events: {
+      close: undefined,
+      error: [Function: handleRequestError],
+      prefinish: undefined,
+      finish: undefined,
+      drain: undefined,
+      response: [Function: handleResponse],
+      socket: [Function: handleRequestSocket]
+    },
+    _writableState: WritableState {
+      highWaterMark: 16384,
+      length: 0,
+      corked: 0,
+      onwrite: [Function: bound onwrite],
+      writelen: 0,
+      bufferedIndex: 0,
+      pendingcb: 0,
+      [Symbol(kState)]: 17580812,
+      [Symbol(kBufferedValue)]: null
+    },
+    _maxListeners: undefined,
+    _options: {
+      maxRedirects: 21,
+      maxBodyLength: Infinity,
+      protocol: 'http:',
+      path: '/chat',
+      method: 'POST',
+      headers: [Object: null prototype],
+      agents: [Object],
+      auth: undefined,
+      family: undefined,
+      beforeRedirect: [Function: dispatchBeforeRedirect],
+      beforeRedirects: [Object],
+      hostname: 'localhost',
+      port: '5000',
+      agent: undefined,
+      nativeProtocols: [Object],
+      pathname: '/chat'
+    },
+    _ended: false,
+    _ending: true,
+    _redirectCount: 0,
+    _redirects: [],
+    _requestBodyLength: 23,
+    _requestBodyBuffers: [ [Object] ],
+    _eventsCount: 3,
+    _onNativeResponse: [Function (anonymous)],
+    _currentRequest: ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: false,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '23',
+      _hasBody: true,
+      _trailer: '',
+      finished: false,
+      _headerSent: true,
+      _closed: false,
+      _header: 'POST /chat HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'User-Agent: axios/1.6.7\r\n' +
+        'Content-Length: 23\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: localhost:5000\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/chat',
+      _ended: false,
+      res: null,
+      aborted: false,
+      timeoutCb: [Function: emitRequestTimeout],
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: false,
+      host: 'localhost',
+      protocol: 'http:',
+      _redirectable: [Circular *1],
+      [Symbol(shapeMode)]: false,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kChunkedBuffer)]: [],
+      [Symbol(kChunkedLength)]: 0,
+      [Symbol(kSocket)]: [Socket],
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    _currentUrl: 'http://localhost:5000/chat',
+    [Symbol(shapeMode)]: true,
+    [Symbol(kCapture)]: false
+  },
+  cause: Error: connect ECONNREFUSED 127.0.0.1:5000
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1602:16) {
+    errno: -111,
+    code: 'ECONNREFUSED',
+    syscall: 'connect',
+    address: '127.0.0.1',
+    port: 5000
+  }
+}
+你好
+{ ai_response: '你好！有什么可以帮助你的吗？' }
+你好
+{ ai_response: '你好！有什么可以帮助你的吗？' }
+你知道我叫什么吗？
+{
+  ai_response: '作为一个AI助手，我没有个人记忆，所以我无法记住之前的对话内容。每次与您对话时，我都是从头开始进行回答。但是，您可以告诉我您的问题或需求，我会尽力提供帮助。'
+}
