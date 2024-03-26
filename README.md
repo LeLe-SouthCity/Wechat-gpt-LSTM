@@ -41,6 +41,9 @@
 
 [申请网址API KEY](https://platform.openai.com/account/api-keys)
 
+
+以上的所有参数都保存在.env.local 文件中
+
 </details>
 
 
@@ -73,8 +76,11 @@ curl -X POST -H "Content-Type: application/json" -d '{"user_input": "What do you
 ```
 nohup node appdify.js &
 ```
-## openai
-
+## 直接使用openai
+```
+nohup node app.js &
+nohup node openai.js &
+```
 
 <details>
     <summary>企微白名单</summary>
