@@ -65,21 +65,20 @@ curl -X POST -H "Content-Type: application/json" -d '{"user_input": "What do you
 
 </details>
 
-![image](https://user-images.githubusercontent.com/12178686/233277321-5392207b-58c5-4c6e-959e-de71518e4094.png)
 
-最后一步： 企业可信IP配置， 应用页的最下方，配置可信IP。 
-![image](https://user-images.githubusercontent.com/12178686/233280128-10dbcbdd-db47-47d2-91a0-8b20f2fd8893.png)
-
-IP地址可以是公网或者映射的域名将这个ip地址配置到可信IP里，至此所有配置工作完成。
-<br/>
-
-:100: 下面就可以直接体验了，手机或电脑上企业微信进入自己创建的应用，可以和ChatGPT的聊起来了。 
-
-
-1. 将服务器IP添加到**企业可信IP**
+1. 将服务器IP添加到**企业可信IP** IP地址可以是公网或者映射的域名将这个ip地址配置到可信IP里，至此所有配置工作完成。
 
 1. 填写**接收消息服务器配置 URL**
 
     假设反代地址为`abc.com`，在**其后添加/message**，将地址`https://abc.com/message`填入接收消息服务器配置的URL里
 
-</details>
+最后一步： 企业可信IP配置， 应用页的最下方，配置可信IP。 
+![image](https://user-images.githubusercontent.com/12178686/233280128-10dbcbdd-db47-47d2-91a0-8b20f2fd8893.png)
+
+
+<br/>
+
+:100: 下面就可以直接体验了，手机或电脑上企业微信进入自己创建的应用，可以和ChatGPT的聊起来了。 
+
+
+
