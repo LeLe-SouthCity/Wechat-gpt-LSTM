@@ -46,7 +46,9 @@
 
 </details>
 
-
+<details>
+    <summary>企微白名单</summary>
+<br>
 ## 不同接口的命令运行
 
 ### 运行下面命令（基础环境设置）
@@ -81,6 +83,8 @@ nohup node appdify.js &
 nohup node app.js &
 nohup node openai.js &
 ```
+
+</details>
 
 <details>
     <summary>企微白名单</summary>
