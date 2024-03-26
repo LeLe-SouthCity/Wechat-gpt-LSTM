@@ -47,7 +47,7 @@
 </details>
 
 <details>
-    <summary>企微白名单</summary>
+    <summary>不同接口的使用命令样例</summary>
 <br>
 ## 不同接口的命令运行
 
