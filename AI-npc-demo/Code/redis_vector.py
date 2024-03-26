@@ -1,5 +1,5 @@
 from langchain_agent.imports import *
-os.environ["OPENAI_API_KEY"] = "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"#getpass.getpass("OpenAI API Key:")
+os.environ["OPENAI_API_KEY"] = os.getenv('OPENAI_API_KEY')
 
 
 from langchain_openai import OpenAIEmbeddings

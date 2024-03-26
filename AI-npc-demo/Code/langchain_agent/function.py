@@ -311,7 +311,7 @@ class Vect_Agent:
         self.vector_store = vector_store
         self.llm = task.llm
         self.task = task
-        self.SERPAPI_API_KEY='f4e351534232e4da8e594d7225a5961c5180fe136b7a3b308843b8a64320a718'
+        self.SERPAPI_API_KEY=os.getenv('SERPAPI_API_KEY')
     
     def Commaoutput(self,qs):
         output_parser = CommaSeparatedListOutputParser()
@@ -461,7 +461,7 @@ class Vect_Agent:
         )
         #5 为Agent创建工具
         docstore=DocstoreExplorer(Wikipedia())
-        os.environ["SERPAPI_API_KEY"] = 'f4e351534232e4da8e594d7225a5961c5180fe136b7a3b308843b8a64320a718'
+        os.environ["SERPAPI_API_KEY"] = os.getenv('SERPAPI_API_KEY')
         # search = GoogleSearchAPIWrapper()
         tools2=load_tools(["serpapi"],self.task.llm)
         agent2 = initialize_agent(tools2, self.task.llm, agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, max_execution_time=1,verbose=True)
@@ -541,7 +541,7 @@ class Vect_Agent:
         """
         prompt_llm = Agent_prefix+Agent_suffix
         #5 为Agent创建工具
-        os.environ["SERPAPI_API_KEY"] = 'f4e351534232e4da8e594d7225a5961c5180fe136b7a3b308843b8a64320a718'
+        os.environ["SERPAPI_API_KEY"] = os.getenv('SERPAPI_API_KEY')
         prompt = PromptTemplate(input_variables=["input"], template=prompt_llm)
         #4 创建LLMChain 类，并使用共享记忆
         summary_chain = LLMChain(
@@ -621,7 +621,7 @@ class Vect_Agent:
         """
         prompt_llm = Agent_prefix+Agent_suffix
         #5 为Agent创建工具
-        os.environ["SERPAPI_API_KEY"] = 'f4e351534232e4da8e594d7225a5961c5180fe136b7a3b308843b8a64320a718'
+        os.environ["SERPAPI_API_KEY"] = os.getenv('SERPAPI_API_KEY')
         # prompt = ChatPromptTemplate.from_messages(
         #     [("system", prompt_llm), ("human", "{query}")]
         # )

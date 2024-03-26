@@ -530,7 +530,7 @@ class Dialog_Demo():
             speed = 1.0
             vol = 1.0
             group_id = "1689852985712348"
-            api_key = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoidGVzdCIsIlN1YmplY3RJRCI6IjE2ODk4NTI5ODU1OTczOTIiLCJQaG9uZSI6Ik1UVTRNVFU0TURJNU1qUT0iLCJHcm91cElEIjoiMTY4OTg1Mjk4NTcxMjM0OCIsIlBhZ2VOYW1lIjoiIiwiTWFpbCI6InpseWdpbGlhbmFAc2luYS5jb20iLCJDcmVhdGVUaW1lIjoiMjAyMy0wOS0wNSAwMDoyNjo1NSIsImlzcyI6Im1pbmltYXgifQ.gdr3NXX8bAKN9E0bzuVsX5HhGXfHnZRY7YEjzo36_CYXUSDDZ4ZZTTopRJ1SLo9O_bOXJ0pnw2FJHz4kVvOedHbrBXbXHAFwyjWZfZ1kP0iE_n11EEClyIXizUvrh35m1DjPhMiPMYXJpVWy5dIkcD7UHBpZCw3DRk68I8XxdkFkZ3LHmBNqvbH9isTRiCzXUprnk2FwfrU8y38-K-H0mzhzJwxNYCO7SuOr26ZBJGDfPGS8K-X2WCJSYUH6pWwocGBrT10Du4A5qH03Eri0xQ4zs1O08G8tYkp4vWhdcNo7iXMDwGeV-BT5yFup6toAFu7CoU-ge30szOv-6AMsSw"
+            api_key = Minimax_api_key
 
             url = f"https://api.minimax.chat/v1/text_to_speech?GroupId={group_id}"
             headers = {
@@ -577,7 +577,7 @@ class Dialog_Demo():
 
         elif gender=="female":
             group_id = "1689852985712348"
-            api_key = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoidGVzdCIsIlN1YmplY3RJRCI6IjE2ODk4NTI5ODU1OTczOTIiLCJQaG9uZSI6Ik1UVTRNVFU0TURJNU1qUT0iLCJHcm91cElEIjoiMTY4OTg1Mjk4NTcxMjM0OCIsIlBhZ2VOYW1lIjoiIiwiTWFpbCI6InpseWdpbGlhbmFAc2luYS5jb20iLCJDcmVhdGVUaW1lIjoiMjAyMy0wOS0wNSAwMDoyNjo1NSIsImlzcyI6Im1pbmltYXgifQ.gdr3NXX8bAKN9E0bzuVsX5HhGXfHnZRY7YEjzo36_CYXUSDDZ4ZZTTopRJ1SLo9O_bOXJ0pnw2FJHz4kVvOedHbrBXbXHAFwyjWZfZ1kP0iE_n11EEClyIXizUvrh35m1DjPhMiPMYXJpVWy5dIkcD7UHBpZCw3DRk68I8XxdkFkZ3LHmBNqvbH9isTRiCzXUprnk2FwfrU8y38-K-H0mzhzJwxNYCO7SuOr26ZBJGDfPGS8K-X2WCJSYUH6pWwocGBrT10Du4A5qH03Eri0xQ4zs1O08G8tYkp4vWhdcNo7iXMDwGeV-BT5yFup6toAFu7CoU-ge30szOv-6AMsSw"
+            api_key = Minimax_api_key
             speed = 1.0
             vol = 1.0
                 
@@ -738,7 +738,7 @@ class Audio_display():
             # 这两个下一步再改,默认的问题也不大
             vol = 1.0
             group_id = "1689852985712348"
-            api_key = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoidGVzdCIsIlN1YmplY3RJRCI6IjE2ODk4NTI5ODU1OTczOTIiLCJQaG9uZSI6Ik1UVTRNVFU0TURJNU1qUT0iLCJHcm91cElEIjoiMTY4OTg1Mjk4NTcxMjM0OCIsIlBhZ2VOYW1lIjoiIiwiTWFpbCI6InpseWdpbGlhbmFAc2luYS5jb20iLCJDcmVhdGVUaW1lIjoiMjAyMy0wOS0wNSAwMDoyNjo1NSIsImlzcyI6Im1pbmltYXgifQ.gdr3NXX8bAKN9E0bzuVsX5HhGXfHnZRY7YEjzo36_CYXUSDDZ4ZZTTopRJ1SLo9O_bOXJ0pnw2FJHz4kVvOedHbrBXbXHAFwyjWZfZ1kP0iE_n11EEClyIXizUvrh35m1DjPhMiPMYXJpVWy5dIkcD7UHBpZCw3DRk68I8XxdkFkZ3LHmBNqvbH9isTRiCzXUprnk2FwfrU8y38-K-H0mzhzJwxNYCO7SuOr26ZBJGDfPGS8K-X2WCJSYUH6pWwocGBrT10Du4A5qH03Eri0xQ4zs1O08G8tYkp4vWhdcNo7iXMDwGeV-BT5yFup6toAFu7CoU-ge30szOv-6AMsSw"
+            api_key = Minimax_api_key
 
             text = st.text_area('输入文本 在字间增加<#x#>,x单位为秒，支持0.01-99.99s，最多两位小数）',  "爱像一阵风,吹完它就走,这样的节奏,谁都无可奈何,没有妳以后,我灵魂失控,黑云在降落,我被它拖着走,静静,悄悄,默默,离开,陷入了危险边缘")
             col1, col2 = st.columns(2)
@@ -836,7 +836,7 @@ class Audio_display():
                                 "爱像一阵风,吹完它就走,这样的节奏,谁都无可奈何,没有妳以后,我灵魂失控,黑云在降落,我被它拖着走,静静,悄悄,默默,离开,陷入了危险边缘")
 
             group_id = "1689852985712348"
-            api_key = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoidGVzdCIsIlN1YmplY3RJRCI6IjE2ODk4NTI5ODU1OTczOTIiLCJQaG9uZSI6Ik1UVTRNVFU0TURJNU1qUT0iLCJHcm91cElEIjoiMTY4OTg1Mjk4NTcxMjM0OCIsIlBhZ2VOYW1lIjoiIiwiTWFpbCI6InpseWdpbGlhbmFAc2luYS5jb20iLCJDcmVhdGVUaW1lIjoiMjAyMy0wOS0wNSAwMDoyNjo1NSIsImlzcyI6Im1pbmltYXgifQ.gdr3NXX8bAKN9E0bzuVsX5HhGXfHnZRY7YEjzo36_CYXUSDDZ4ZZTTopRJ1SLo9O_bOXJ0pnw2FJHz4kVvOedHbrBXbXHAFwyjWZfZ1kP0iE_n11EEClyIXizUvrh35m1DjPhMiPMYXJpVWy5dIkcD7UHBpZCw3DRk68I8XxdkFkZ3LHmBNqvbH9isTRiCzXUprnk2FwfrU8y38-K-H0mzhzJwxNYCO7SuOr26ZBJGDfPGS8K-X2WCJSYUH6pWwocGBrT10Du4A5qH03Eri0xQ4zs1O08G8tYkp4vWhdcNo7iXMDwGeV-BT5yFup6toAFu7CoU-ge30szOv-6AMsSw"
+            api_key = Minimax_api_key
             
             vol = 1.0
             col1, col2 = st.columns(2)

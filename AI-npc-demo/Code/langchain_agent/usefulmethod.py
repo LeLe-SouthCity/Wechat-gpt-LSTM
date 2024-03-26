@@ -32,7 +32,7 @@ class LLM_Model():
         llm_model_type (int) : openai=1 Get_ChatGLM=2 minimax=3
         temperature (float): 样本值 值越大越随机
         """
-        os.environ["OPENAI_API_KEY"] ='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'
+        os.environ["OPENAI_API_KEY"] =os.getenv('OPENAI_API_KEY')
         self.llm_model_type = llm_model_type
         self.temperature = temperature
 
@@ -88,7 +88,7 @@ class LLM_Model():
         "speech-01"  """
 
         os.environ["MINIMAX_GROUP_ID"] = "1697689414438479"
-        os.environ["MINIMAX_API_KEY"] = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoiMTExIiwiU3ViamVjdElEIjoiMTY5NzY4OTQxNDQ2NTAwNiIsIlBob25lIjoiTVRVMk9UY3pNelU1TWpBPSIsIkdyb3VwSUQiOiIxNjk3Njg5NDE0NDM4NDc5IiwiUGFnZU5hbWUiOiIiLCJNYWlsIjoiODQ4Nzg3Njc1QHFxLmNvbSIsIkNyZWF0ZVRpbWUiOiIyMDIzLTEwLTIzIDE0OjI3OjQ5IiwiaXNzIjoibWluaW1heCJ9.JK-ZXrznIoG-PMoc6WIigjdCElnUoTjYYURJa5s22eocuFw-XpagFJMOkFmXvJZhXnzVbDUt4rj5F-qvKRw_Dp2TyNJiab86OP2XX9z5BHG8TpK67-iJBgDydXzzhxnI42-RwW3b2wIPcviCiPxMgFUAtVckVf_TPDNB47jscHe5e8rfgGsEsNbkjTPlWIyhngNRrsOJw9p7WmDoRPTs7VJ_RJ5Qke-IO4Sc6hd06eBaIxgBNpoYb1vg7dLIteRgbxrckxbOBKQyE-FjJoJkvTcV2znZSmqlRCBO1TnbLleXOpqsp6UHJ9mz3HTmtDZKPF9ZL-w_Q2REi3zEUuC3yQ"
+        os.environ["MINIMAX_API_KEY"] = os.getenv('MINIMAX_API_KEY')
 
         # 创建minimax大语言模型对象
         
@@ -96,7 +96,7 @@ class LLM_Model():
         llm_minimax = Minimax(
                                 model=modelname, 
                                 minimax_api_key=
-                                    "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJOYW1lIjoiMTExIiwiU3ViamVjdElEIjoiMTY5NzY4OTQxNDQ2NTAwNiIsIlBob25lIjoiTVRVMk9UY3pNelU1TWpBPSIsIkdyb3VwSUQiOiIxNjk3Njg5NDE0NDM4NDc5IiwiUGFnZU5hbWUiOiIiLCJNYWlsIjoiODQ4Nzg3Njc1QHFxLmNvbSIsIkNyZWF0ZVRpbWUiOiIyMDIzLTEwLTIzIDE0OjI3OjQ5IiwiaXNzIjoibWluaW1heCJ9.JK-ZXrznIoG-PMoc6WIigjdCElnUoTjYYURJa5s22eocuFw-XpagFJMOkFmXvJZhXnzVbDUt4rj5F-qvKRw_Dp2TyNJiab86OP2XX9z5BHG8TpK67-iJBgDydXzzhxnI42-RwW3b2wIPcviCiPxMgFUAtVckVf_TPDNB47jscHe5e8rfgGsEsNbkjTPlWIyhngNRrsOJw9p7WmDoRPTs7VJ_RJ5Qke-IO4Sc6hd06eBaIxgBNpoYb1vg7dLIteRgbxrckxbOBKQyE-FjJoJkvTcV2znZSmqlRCBO1TnbLleXOpqsp6UHJ9mz3HTmtDZKPF9ZL-w_Q2REi3zEUuC3yQ",
+                                    os.getenv('MINIMAX_API_KEY'),
                                 minimax_group_id="1697689414438479",
                                 temperature = self.temperature
                             )
