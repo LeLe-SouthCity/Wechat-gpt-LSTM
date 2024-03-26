@@ -41,25 +41,44 @@
 
 [申请网址API KEY](https://platform.openai.com/account/api-keys)
 
+</details>
 
-运行下面命令
+
+## 不同接口的命令运行
+
+### 运行下面命令（基础环境设置）
 ```
 pip install -r requirements.txt (如果不行就一个一个运行)
 pip install nodejs (版本大于1.18)
 npm install 
+npm install @wecom/crypto
+npm install xml2js
+```
 
-#(LSTM + 微调gpt)
+## lstm+微调gpt
+```
 nohup python /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py & 
 #(微调gpt)
 nohup python /home/ubuntu/WeWork-OpenAI-Node/flaskopenaiog.py & 
 nohup node app.js &
 ```
 
-flask 测试
+### flask 测试
 ```
 curl -X POST -H "Content-Type: application/json" -d '{"user_input": "What do you know about me?"}' http://localhost:5000/chat
-
 ```
+
+
+## dify 接口 直接运行
+```
+nohup node appdify.js &
+```
+## openai
+
+
+<details>
+    <summary>企微白名单</summary>
+<br>
 
 ## 将服务器的ip地址配置到可信IP里，至此所有配置工作完成。下面就可以直接体验了，手机或电脑上企业微信进入自己创建的应用，可以和ChatGPT的聊起来了。 
 
