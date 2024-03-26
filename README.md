@@ -1,6 +1,6 @@
 # 企微GPT-with LSTM/dify/openai
 
-![小O同学实例](WeWork-OpenAI-Node/Image/image1.png)
+![小O同学实例](Image/image1.png)
 
 
 
