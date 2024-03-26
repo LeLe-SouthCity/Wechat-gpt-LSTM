@@ -3500,3 +3500,11 @@ Error: Cannot find module '/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis
 }
 
 Node.js v21.6.2
+(node:395807) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server Running on Port:undefined
+TOKEN: undefined
+(node:395851) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+Server Running on Port:undefined
+TOKEN: undefined

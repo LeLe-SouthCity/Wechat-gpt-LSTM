@@ -1,7 +1,6 @@
 import cloud from '@lafjs/cloud'
 import { decrypt, getSignature } from '@wecom/crypto'
 import xml2js from 'xml2js'
-
 function genConversationKey(userName) {
   return `${process.env.WXWORK_AGENTID}:${userName}`
 }
@@ -55,72 +54,106 @@ async function sendWxMessage(message, user) {
   console.log('[sendWxMessage] received', res.data)
 }
 
-async function sendDifyMessage(message, userName, onMessage) {
-  console.log('[sendDifyMessage] called', message, userName)
+// async function sendDifyMessage(message, userName, onMessage) {
+//   console.log('[sendDifyMessage] called', message, userName)
 
-  const conversationId = cloud.shared.get(genConversationKey(userName)) || null
-  let newConversationId = ''
-  let responseText = ''
+//   const conversationId = cloud.shared.get(genConversationKey(userName)) || null
+//   let newConversationId = ''
+//   let responseText = ''
+
+//   try {
+//     const response = await cloud.fetch({
+//       url: 'http://10.50.146.102/v1/chat-messages',
+//       method: 'POST',
+//       headers: {
+//         'Authorization': `Bearer app-QUUb1aNeslCUaPF1zsLynjqr`
+//       },
+//       data: {
+//         inputs: {},
+//         response_mode: "streaming",
+//         query: message,
+//         user: userName,
+//         conversation_id: conversationId
+//       },
+//       responseType: "stream"
+//     })
+
+//     let firstHalfMessage = ''
+//     response.data.on('data', (data) => {
+//       let message = data.toString()
+//       try {
+//         if (firstHalfMessage) {
+//           message += firstHalfMessage
+//           firstHalfMessage = ''
+//         }
+
+//         // 检查是不是sse协议
+//         if (!message.startsWith('data: ')) return
+
+//         const parsedChunk= JSON.parse(message.substring(6))
+
+//         if (!newConversationId) {
+//           newConversationId = parsedChunk.conversation_id
+//           cloud.shared.set(genConversationKey(userName), newConversationId)
+//         }
+//         const { answer } = parsedChunk
+//         responseText += answer
+
+//         // 伪流式响应
+//         if (answer.endsWith('\n\n') || (responseText.length > 120 && /[?。；！]$/.test(responseText))) {
+//           onMessage(responseText.replace('\n\n', ''))
+//           console.log('[sendDifyMessage] received', responseText, newConversationId)
+//           responseText = ''
+//         }
+//       } catch (e) {
+//         firstHalfMessage = message
+//         console.error('[sendDifyMessage] error', message)
+//       }
+
+//     })
+
+//     // stream结束时把剩下的消息全部发出去
+//     response.data.on('end', () => {
+//       onMessage(responseText.replace('\n\n', ''))
+//     })
+//   } catch (e) {
+//     console.error("[sendDifyMessage] error", e)
+//   }
+// }
+
+// difynodes.js
+import axios from 'axios';
+
+const sendDifyMessage = async (query, user) => {
+  const url = 'http://10.50.146.102/v1/chat-messages';
+  const headers = {
+      'Authorization': 'Bearer app-QUUb1aNeslCUaPF1zsLynjqr',
+      'Content-Type': 'application/json'
+  };
+  const data = {
+      "inputs": {},
+      "query": query,
+      "response_mode": "blocking",
+      "user": user,
+  };
 
   try {
-    const response = await cloud.fetch({
-      url: 'https://api.dify.ai/v1/chat-messages',
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${process.env.DIFY_APPTOKEN}`
-      },
-      data: {
-        inputs: {},
-        response_mode: "streaming",
-        query: message,
-        user: userName,
-        conversation_id: conversationId
-      },
-      responseType: "stream"
-    })
-
-    let firstHalfMessage = ''
-    response.data.on('data', (data) => {
-      let message = data.toString()
-      try {
-        if (firstHalfMessage) {
-          message += firstHalfMessage
-          firstHalfMessage = ''
-        }
-
-        // 检查是不是sse协议
-        if (!message.startsWith('data: ')) return
-
-        const parsedChunk= JSON.parse(message.substring(6))
-
-        if (!newConversationId) {
-          newConversationId = parsedChunk.conversation_id
-          cloud.shared.set(genConversationKey(userName), newConversationId)
-        }
-        const { answer } = parsedChunk
-        responseText += answer
-
-        // 伪流式响应
-        if (answer.endsWith('\n\n') || (responseText.length > 120 && /[?。；！]$/.test(responseText))) {
-          onMessage(responseText.replace('\n\n', ''))
-          console.log('[sendDifyMessage] received', responseText, newConversationId)
-          responseText = ''
-        }
-      } catch (e) {
-        firstHalfMessage = message
-        console.error('[sendDifyMessage] error', message)
-      }
-
-    })
-
-    // stream结束时把剩下的消息全部发出去
-    response.data.on('end', () => {
-      onMessage(responseText.replace('\n\n', ''))
-    })
-  } catch (e) {
-    console.error("[sendDifyMessage] error", e)
+    const response = await axios.post(url, data, { headers: headers });
+    const answer = response.data.answer;
+    if (answer) { // 检查是否有输出
+      console.log('已输出:', answer); // 在日志中记录输出
+    }
+    return answer; // 仅返回answer字段
+  } catch (error) {
+    console.error(error);
+    throw error; // 抛出异常以便调用者处理
   }
-}
+};
+
+
+export { sendDifyMessage };
+
+
 
 async function asyncSendMessage(xml) {
   console.log('[asyncSendMessage] called', xml)
@@ -191,3 +224,4 @@ export default async function (ctx) {
 
   return { message: true, code: 0 }
 }
+
