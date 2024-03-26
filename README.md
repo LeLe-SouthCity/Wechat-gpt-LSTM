@@ -60,12 +60,10 @@ npm install @wecom/crypto
 npm install xml2js
 ```
 
-## lstm+微调gpt
+## lstm+微调gpt(写了一个脚本代码 进行监控并运行flask代码)
 ```
-nohup python /home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/vectorflask.py & 
-#(微调gpt)
-nohup python /home/ubuntu/WeWork-OpenAI-Node/flaskopenaiog.py & 
 nohup node app.js &
+bash ./home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/monitor_flask.sh
 ```
 
 ### flask 测试
