@@ -1,28 +1,7 @@
-# 企微GPT-with LSTM
-<p align='center'>
-    <img src="https://user-images.githubusercontent.com/12178686/233246963-9f7e5eb0-d78f-4286-8536-2f4e9f9bee11.png"  alt='' width='800'/>
-</p>
+# 企微GPT-with LSTM/dify/openai
 
-<details align='center'>
-    <summary> 📷 点击展开完整功能截图</summary>
-    <br>
-    <p align='center'>
-    <img src='https://user-images.githubusercontent.com/12178686/233244040-7ab04261-79d7-4588-b8b1-18fc64d9f040.png' alt='语音对话' width='400'/>
-    </p>
+![小O同学实例](WeWork-OpenAI-Node/Image/image1.png)
 
-</details>
-
-<br>
-
-<p align='center'>
-   企业微信 × OpenAI
-<br>
-<br>
-    🚀 WeWork OpenAI (node) 🚀
-</p>
-<p align='center'>
-   www.connectai-e.com
-</p>
 
 
 ## 🌟 项目特点
