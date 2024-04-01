@@ -124,7 +124,7 @@ async function sendWxMessage(message, user) {
 // difynodes.js
 import axios from 'axios';
 
-const sendDifyMessage = async (query, user) => {
+const sendDifyMessage = async (query, user="le",conversation_id) => {
   const url = 'http://10.50.146.102/v1/chat-messages';
   const headers = {
       'Authorization': 'Bearer app-QUUb1aNeslCUaPF1zsLynjqr',
@@ -133,6 +133,7 @@ const sendDifyMessage = async (query, user) => {
   const data = {
       "inputs": {},
       "query": query,
+      "conversation_id": conversation_id,
       "response_mode": "blocking",
       "user": user,
   };
@@ -140,13 +141,16 @@ const sendDifyMessage = async (query, user) => {
   try {
     const response = await axios.post(url, data, { headers: headers });
     const answer = response.data.answer;
-    if (answer) { // 检查是否有输出
-      console.log('已输出:', answer); // 在日志中记录输出
+    const conversation_id = response.data.conversation_id;
+    if (answer) {
+      console.log('已输出:', answer);
+      console.log('当前轮id:', conversation_id);
     }
-    return answer; // 仅返回answer字段
+    // 返回一个对象，包含answer和conversation_id
+    return { answer, conversation_id };
   } catch (error) {
     console.error(error);
-    throw error; // 抛出异常以便调用者处理
+    throw error;
   }
 };
 

@@ -196,10 +196,10 @@ def chat():
         #向量数据获取
         # 创建AI_Response_API的实例
         aires = AI_Response_API()
-        path = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/dialog"
+        path = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/test/dialog"
         info=aires.vector_file(input=user_input,path=path )
         
-        path2 = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/pages/test/src"
+        path2 = "/home/ubuntu/WeWork-OpenAI-Node/AI-npc-demo/Streamlis_Demos/victor_Demo/test/src"
         info2=aires.vector_file(input=user_input,path =path2 )
         print("------------------------------------",user_input)
         #总prompt 
